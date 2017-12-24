@@ -35,6 +35,14 @@
                 <td>Leather seat red color</td>
                 <td></td>
             </tr>
+			<tr><td colspan="4"><hr /></td></tr>
+			<tr>
+                <td>Available Quantity</td>
+                <td>:</td>
+                <td>20</td>
+                <td></td>
+            </tr>
+			<tr><td colspan="4"><hr /></td></tr>
 			<tr>
                 <td>Picture</td>
                 <td>:</td>
@@ -52,7 +60,13 @@
     <hr/>    
     <form>
         <input type="submit" value="Delete"/>
-        <a href="search.html">Back to Search</a>
+        <input type="button" value="Back" onclick="goBack()"></button>
+
+		<script>
+		function goBack() {
+			window.history.back();
+		}
+		</script>
     </form>    
     <br/><br/>
 </fieldset>
