@@ -6,6 +6,12 @@
 	<head>
 	
 	<body>
+		<script>
+		function msg()
+		{
+			alert("Product added to cart!");
+		}
+		</script>
 			<table border=5 height="100%">
 				<tr width="100%">
 					<td>
@@ -14,7 +20,7 @@
 					<td width="100%" valign="top" align="center">
 						<h1><u><b>Product name : Fog Light</b></u><h1> <br><br>
 						<h3>Details : This OE Relacement Fog Light is DOT and SAE approved and made from high grade materials at an affordable price<h3><br>
-						<table border=2>
+						<table border=2 width="30%" height="30%" cellpadding="10">
 						    <tr>
 							<td>Material:</td>
 							<td>Glass Lens</td>
@@ -39,9 +45,9 @@
 							<td>Price:</td>
 							<td>2810.00</td>
 							</tr>
-						</table>
+						</table><br/>
 						
-						<a href=""><h4><font face="calibri" color="#444444">Add to Cart</font></h4></a>
+						<input type="button" onclick="msg()" value="Add to cart">
 					</td>
 				</tr>
 			</table>
