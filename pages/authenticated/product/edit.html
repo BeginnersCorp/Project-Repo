@@ -1,3 +1,8 @@
+<!--<script>
+function goBack() {
+    document.write('<a href="' + document.referrer + '">Go Back</a>');
+}
+</script>-->
 <fieldset>This is message box</fieldset>
 <br />
 <fieldset>
@@ -43,6 +48,14 @@
                 <td></td>
             </tr>
 			<tr>
+                <td>Available Quantity</td>
+                <td>:</td>
+                <td>
+					<input name="name" type="int" value="17">
+				</td>
+                <td></td>
+            </tr>
+			<tr>
                 <td>Picture</td>
                 <td>:</td>
                 <td>
@@ -58,6 +71,12 @@
         </table>
         <hr />
         <input type="submit" value="Save">
-        <a href="search.html">Back to Search</a>
+        <input type="button" value="Back" onclick="goBack()"></button>
+
+		<script>
+		function goBack() {
+			window.history.back();
+		}
+		</script>
     </form>
 </fieldset>
