@@ -32,37 +32,39 @@
 	
 	
 	<select onchange="elements(this,I,Ex,En)" name="Elements">
-		<option value="0">(Select position)</option>
+		<option value="0">Select position</option>
 		<option value="1">Interior</option> 
 		<option value="2">Exterior</option>
 		<option value="3">Engine</option>
 	</select>
 
 	<select id="I" style="display:none;" name="Interior">
-		<option value="0">1</option>
-		<option value="2">2</option>
+		<option value="0">Select Option</option>
+		<option value="1">Seat</option>
+		<option value="2">DVD Player</option>
+		<option value="3">Stearing Wheel</option>
+		<option value="4">Others</option>
 	</select>
 
 	<select id="Ex" style="display:none;" name="Exterior">
-		<option value="0">3</option>
-		<option value="1">4</option>
+		<option value="0">Select Option</option>
+		<option value="1">Light</option>
+		<option value="2">Bumper</option>
+		<option value="3">Rim</option>
+		<option value="4">Others</option>
 	</select>
 	
 	<select id="En" style="display:none;" name="Engine">
-		<option value="0">5</option>
-		<option value="1">6</option>
+		<option value="0">Select Option</option>
+		<option value="1">Engine Machineries</option>
+		<option value="2">Air Filter</option>
+		<option value="3">Carburator</option>
+		<option value="4">Griffin Radiator</option>
+		<option value="5">Others</option>
 	</select>
-	<fieldset>
-		
-		<select onchange="location = this.value;">
-			<option value=""></option>
-			<option value="category/interior/interior.html">Interior</option>
-			<option value="category/exterior/exterior.html">Exterior</option>
-			<option value="category/engine/engine.html">Engine</option>
-		</select>
-		
-		<!--<input type="button" value="Search">-->
-	</fieldset>
+	
+	<!--<input type="button" value="Search">-->
+	
 	</td>
 	
 	<td align="right">
@@ -353,7 +355,7 @@
 
 	
 </table>
-<!--<a valign="bottom" href="checkout.html">
+<!--<a valign="bottom" href="checkout.php">
 	<h3>Checkout</h3>
 </a>-->
 </body>

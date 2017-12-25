@@ -61,6 +61,6 @@
         </table>
         <hr/>
         <input type="submit" value="Submit">	
-        <!--<a href="dashboard.html">Dashboard</a>-->
+        <!--<a href="dashboard.php">Dashboard</a>-->
     </form>
 </fieldset>

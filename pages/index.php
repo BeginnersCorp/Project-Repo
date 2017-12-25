@@ -4,20 +4,20 @@
             <table width="100%">
                 <tr>
                     <td>
-                        <a href="home.html" target="contentFrame">
+                        <a href="home.php" target="contentFrame">
                             <img height="140" width="800" src="../resources/images/x.jpg">
                         </a>
-						<!--<a href="home.html" target="contentFrame">
+						<!--<a href="home.php" target="contentFrame">
                             <img height="140" width="250" src="../resources/images/y1.jpg">
                         </a>-->
                     </td>
 				<!--</tr>
 				<tr>-->
                     <td align="right">
-                        <a href="home.html" target="contentFrame">Home</a>&nbsp;|
-                        <a href="login.html" target="contentFrame">Login</a>&nbsp;|
-                        <a href="registration.html" target="contentFrame">Registration</a>&nbsp;|
-						<a href="cart.html" target="contentFrame">Cart</a>
+                        <a href="home.php" target="contentFrame">Home</a>&nbsp;|
+                        <a href="login.php" target="contentFrame">Login</a>&nbsp;|
+                        <a href="registration.php" target="contentFrame">Registration</a>&nbsp;|
+						<a href="cart.php" target="contentFrame">Cart</a>
                     </td>
                 </tr>
             </table>
@@ -26,7 +26,7 @@
     <tr>
         <td align="center">
             <br />
-            <iframe name="contentFrame" frameborder="0" width="100%" height="475" src="home.html"></iframe>
+            <iframe name="contentFrame" frameborder="0" width="100%" height="475" src="home.php"></iframe>
         </td>
     </tr>
     <tr>
