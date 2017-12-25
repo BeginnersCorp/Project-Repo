@@ -1,3 +1,4 @@
+<html>
 <head>
 <script>
 	function elements(el,i,ex,en){
@@ -359,3 +360,4 @@
 	<h3>Checkout</h3>
 </a>-->
 </body>
+</html>

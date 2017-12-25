@@ -1,3 +1,4 @@
+<html>
 <fieldset>This is message box</fieldset>
 <br />
 <fieldset>
@@ -24,3 +25,4 @@
         <a href="forgot_password.php">Forgot Password?</a>
     </form>
 </fieldset>
+</html>
