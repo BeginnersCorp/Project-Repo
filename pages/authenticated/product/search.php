@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend>
         <b>PRODUCT | SEARCH</b>
@@ -58,3 +59,4 @@
         <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>
+</html>

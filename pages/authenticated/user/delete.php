@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend><b>USER | DELETE</b></legend>
     <br/>
@@ -60,3 +61,4 @@
     </form>    
     <br/><br/>
 </fieldset>
+</html>

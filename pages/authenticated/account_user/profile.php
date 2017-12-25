@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend><b>PROFILE</b></legend>
     <form>
@@ -61,3 +62,4 @@
         <a href="dashboard.php">Dashboard</a>
     </form>
 </fieldset>
+</html>

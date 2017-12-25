@@ -1,5 +1,6 @@
+<html>
 <fieldset>This is message box</fieldset>
-<br />
+<br/>
 <fieldset>
     <legend><b>PRODUCT | ADD</b></legend>
     <br/>
@@ -59,9 +60,9 @@
                 <td></td>
             </tr>
         </table>
-        <hr />
-        <input type="submit" value="Save">
-        <input type="button" value="Back" onclick="goBack()"></button>
+        <hr/>
+        <input type="submit" value="Save"/>
+        <input type="button" value="Back" onclick="goBack()"/>
 
 		<script>
 		function goBack() {
@@ -70,3 +71,4 @@
 		</script>
     </form>
 </fieldset>
+</html>

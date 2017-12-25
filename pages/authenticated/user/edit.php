@@ -1,3 +1,4 @@
+<html>
 <fieldset>This is message box</fieldset>
 <br />
 <fieldset>
@@ -103,3 +104,4 @@
         <a href="search.php">Back to Search</a>
     </form>
 </fieldset>
+</html>

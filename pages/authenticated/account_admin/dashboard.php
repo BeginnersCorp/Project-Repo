@@ -1,3 +1,4 @@
+<html>
 <h3>Welcome Bob</h3>
 <table>
     <tr>
@@ -13,3 +14,4 @@
 </table>
 
 <h2><a href="request.php" target="contentFrame">1 request approval pending</h2></a>
+</html>

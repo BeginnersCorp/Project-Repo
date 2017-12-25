@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend><b>PRODUCT | DETAILS</b></legend>
     <br/>
@@ -77,3 +78,4 @@
 		</script>
     <br/><br/>
 </fieldset>
+<html>
