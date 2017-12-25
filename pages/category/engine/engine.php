@@ -1,3 +1,4 @@
+<html>	
 <table width= "100%" cellspacing="0" cellpadding="10" >
 <td>
 <fieldset>
@@ -21,3 +22,4 @@
 
 </table>
 <h1>This is the engine html page</h1>
+</html>

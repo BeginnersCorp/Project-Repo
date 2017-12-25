@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend><b>USER | DELETE</b></legend>
     <br/>
@@ -60,7 +61,7 @@
     <hr/>    
     <form>
         <input type="submit" value="Delete"/>
-        <input type="button" value="Back" onclick="goBack()"></button>
+        <input type="button" value="Back" onclick="goBack()">
 
 		<script>
 		function goBack() {
@@ -70,3 +71,4 @@
     </form>    
     <br/><br/>
 </fieldset>
+</html>

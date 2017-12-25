@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend><b>USER | DETAIL</b></legend>
     <br/>
@@ -59,3 +60,4 @@
     <a href="search.php">Back to Search</a>
     <br/><br/>
 </fieldset>
+</html>

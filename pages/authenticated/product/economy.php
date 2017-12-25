@@ -1,3 +1,4 @@
+<html>
 <h2 align="center">Best Selling Products</h2>
 <table width="100%" cellspacing="0" border="1" cellpadding="5">
     <tr>
@@ -91,3 +92,4 @@
         <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>
+<html>

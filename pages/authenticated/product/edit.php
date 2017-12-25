@@ -1,3 +1,4 @@
+<html>
 <!--<script>
 function goBack() {
     document.write('<a href="' + document.referrer + '">Go Back</a>');
@@ -73,7 +74,7 @@ function goBack() {
         </table>
         <hr />
         <input type="submit" value="Save">
-        <input type="button" value="Back" onclick="goBack()"></button>
+        <input type="button" value="Back" onclick="goBack()">
 
 		<script>
 		function goBack() {
@@ -82,3 +83,4 @@ function goBack() {
 		</script>
     </form>
 </fieldset>
+</html>
