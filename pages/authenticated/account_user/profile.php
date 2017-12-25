@@ -16,7 +16,7 @@
                 <td rowspan="7" align="center">
                     <img width="128" src="../../../resources/images/user.png"/>
                     <br/>
-                    <a href="picture.html">Change</a>
+                    <a href="picture.php">Change</a>
                 </td>
             </tr>		
             <tr><td colspan="3"><hr/></td></tr>
@@ -57,7 +57,7 @@
             </tr>
         </table>	
         <hr/>
-        <a href="edit_profile.html">Edit</a>
-        <a href="dashboard.html">Dashboard</a>
+        <a href="edit_profile.php">Edit</a>
+        <a href="dashboard.php">Dashboard</a>
     </form>
 </fieldset>

@@ -12,4 +12,4 @@
     </tr>
 </table>
 
-<h2><a href="request.html" target="contentFrame">1 request approval pending</h2></a>
+<h2><a href="request.php" target="contentFrame">1 request approval pending</h2></a>

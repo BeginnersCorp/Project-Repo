@@ -34,6 +34,6 @@
         </table>
         <hr />
         <input type="submit" value="Update" />
-        <a href="dashboard.html">Dashboard</a>
+        <a href="dashboard.php">Dashboard</a>
     </form>
 </fieldset>

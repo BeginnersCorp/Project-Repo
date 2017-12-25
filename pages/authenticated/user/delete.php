@@ -56,7 +56,7 @@
     <hr/>    
     <form>
         <input type="submit" value="Delete"/>
-        <a href="search.html">Back to Search</a>
+        <a href="search.php">Back to Search</a>
     </form>    
     <br/><br/>
 </fieldset>

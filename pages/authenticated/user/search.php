@@ -11,7 +11,7 @@
     </select>
     <input />
     <input type="submit" value="Search" />
-    <a href="create.html">Create New</a>
+    <a href="create.php">Create New</a>
 </fieldset>
 <br/>
 <table width="100%" cellspacing="0" border="1" cellpadding="5">
@@ -25,24 +25,24 @@
         <td>Bob Marsh</td>
         <td>bob@aiub.edu</td>
         <td>Active</td>
-        <td width="40"><a href="detail.html">Detail</a></td>
-        <td width="30"><a href="edit.html">Edit</a></td>
-        <td width="45"><a href="delete.html">Delete</a></td>
+        <td width="40"><a href="detail.php">Detail</a></td>
+        <td width="30"><a href="edit.php">Edit</a></td>
+        <td width="45"><a href="delete.php">Delete</a></td>
     </tr>
     <tr>
         <td>Lana Lane</td>
         <td>lana@live.com</td>
         <td>Pending</td>
-        <td width="40"><a href="detail.html">Detail</a></td>
-        <td width="30"><a href="edit.html">Edit</a></td>
-        <td width="45"><a href="delete.html">Delete</a></td>
+        <td width="40"><a href="detail.php">Detail</a></td>
+        <td width="30"><a href="edit.php">Edit</a></td>
+        <td width="45"><a href="delete.php">Delete</a></td>
     </tr>
     <tr>
         <td>Clark Kent</td>
         <td>kent@gmail.com</td>
         <td>Blocked</td>
-        <td width="40"><a href="detail.html">Detail</a></td>
-        <td width="30"><a href="edit.html">Edit</a></td>
-        <td width="45"><a href="delete.html">Delete</a></td>
+        <td width="40"><a href="detail.php">Detail</a></td>
+        <td width="30"><a href="edit.php">Edit</a></td>
+        <td width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>

@@ -66,8 +66,8 @@
             </tr>
     </table>	
     <hr/>    
-    <a href="edit.html">Edit</a>
-    <a href="delete.html">Delete</a>
+    <a href="edit.php">Edit</a>
+    <a href="delete.php">Delete</a>
     <input type="button" value="Back" onclick="goBack()"></button>
 
 		<script>

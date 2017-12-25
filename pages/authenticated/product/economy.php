@@ -16,9 +16,9 @@
         <td align="center">25000</td>
 		<td align="center">60</td>
 		<td align="center">20</td>
-        <td align="center" width="40"><a href="detail.html">Detail</a></td>
-        <td align="center" width="30"><a href="edit.html">Edit</a></td>
-        <td align="center" width="45"><a href="delete.html">Delete</a></td>
+        <td align="center" width="40"><a href="detail.php">Detail</a></td>
+        <td align="center" width="30"><a href="edit.php">Edit</a></td>
+        <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
     <tr>
         <td align="center" width="80"><a> <img src="../../../resources/products/red_sports_seat1.jpg"  width="80" height="100"> </a></td>
@@ -27,9 +27,9 @@
         <td align="center">28000</td>
 		<td align="center">45</td>
 		<td align="center">17</td>
-        <td align="center" width="40"><a href="detail.html">Detail</a></td>
-        <td align="center" width="30"><a href="edit.html">Edit</a></td>
-        <td align="center" width="45"><a href="delete.html">Delete</a></td>
+        <td align="center" width="40"><a href="detail.php">Detail</a></td>
+        <td align="center" width="30"><a href="edit.php">Edit</a></td>
+        <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>
 <br/><br/>
@@ -51,9 +51,9 @@
         <td align="center">15000</td>
 		<td align="center">10</td>
 		<td align="center">90</td>
-        <td align="center" width="40"><a href="detail.html">Detail</a></td>
-        <td align="center" width="30"><a href="edit.html">Edit</a></td>
-        <td align="center" width="45"><a href="delete.html">Delete</a></td>
+        <td align="center" width="40"><a href="detail.php">Detail</a></td>
+        <td align="center" width="30"><a href="edit.php">Edit</a></td>
+        <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>
 <br/><br/>
@@ -75,9 +75,9 @@
         <td align="center">25000</td>
 		<td align="center">60</td>
 		<td align="center">20</td>
-        <td align="center" width="40"><a href="detail.html">Detail</a></td>
-        <td align="center" width="30"><a href="edit.html">Edit</a></td>
-        <td align="center" width="45"><a href="delete.html">Delete</a></td>
+        <td align="center" width="40"><a href="detail.php">Detail</a></td>
+        <td align="center" width="30"><a href="edit.php">Edit</a></td>
+        <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
     <tr>
         <td align="center" width="80"><a> <img src="../../../resources/products/red_sports_seat1.jpg"  width="80" height="100"> </a></td>
@@ -86,8 +86,8 @@
         <td align="center">28000</td>
 		<td align="center">45</td>
 		<td align="center">17</td>
-        <td align="center" width="40"><a href="detail.html">Detail</a></td>
-        <td align="center" width="30"><a href="edit.html">Edit</a></td>
-        <td align="center" width="45"><a href="delete.html">Delete</a></td>
+        <td align="center" width="40"><a href="detail.php">Detail</a></td>
+        <td align="center" width="30"><a href="edit.php">Edit</a></td>
+        <td align="center" width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>

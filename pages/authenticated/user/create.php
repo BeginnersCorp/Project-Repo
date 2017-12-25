@@ -93,6 +93,6 @@
         </table>
         <hr />
         <input type="submit" value="Save">
-        <a href="search.html">Back to Search</a>
+        <a href="search.php">Back to Search</a>
     </form>
 </fieldset>

@@ -54,8 +54,8 @@
         </tr>
     </table>	
     <hr/>    
-    <a href="edit.html">Edit</a>
-    <a href="delete.html">Delete</a>
-    <a href="search.html">Back to Search</a>
+    <a href="edit.php">Edit</a>
+    <a href="delete.php">Delete</a>
+    <a href="search.php">Back to Search</a>
     <br/><br/>
 </fieldset>
