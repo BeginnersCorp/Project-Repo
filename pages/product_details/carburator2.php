@@ -46,6 +46,10 @@
 							<td>Gasoline</td>
 							</tr>
 							<tr>
+							<td>Supported:</td>
+							<td>Honda,Kia,Mazda</td>
+							</tr>
+							<tr>
 							<td>Price:</td>
 							<td>20000.00</td>
 							</tr>

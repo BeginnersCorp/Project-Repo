@@ -18,7 +18,7 @@
 						<img src="../../resources/products/window_switch2.jpg" alt="../../resources/products/window_switch2.jpg" height="500" width="400" >
 					</td>
 					<td width="100%" valign="top" align="center">
-						<h1><u><b>Product name : Standard Window Switch</b></u><h1> <br><br>
+						<h1><u><b>Product name : Standard Window Switch XP</b></u><h1> <br><br>
 						<h3>Details : <br><br/>Simle to install ; Crafted to stringent OE standards ; Provides exact,vehicle specific fit and functionality<h3><br>
 						<table border=2 width="30%" height="30%" cellpadding="10">
 						    <tr>

@@ -46,6 +46,10 @@
 							<td>Gasoline</td>
 							</tr>
 							<tr>
+							<td>Supported:</td>
+							<td>Toyota,Nissan</td>
+							</tr>
+							<tr>
 							<td>Price:</td>
 							<td>15000.00</td>
 							</tr>
