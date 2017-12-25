@@ -330,7 +330,7 @@
 
 	
 </table>
-<!--<a valign="bottom" href="checkout.html">
+<!--<a valign="bottom" href="checkout.php">
 	<h3>Checkout</h3>
 </a>-->
 </body>

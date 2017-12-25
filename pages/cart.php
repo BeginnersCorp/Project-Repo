@@ -35,6 +35,6 @@
 <table width="100%" cellspacing="0" border="1" cellpadding="5">
 	<tr>
         <td><h1>Total: 68000.00 Taka</h1></td>
-		<td align="center"><a href="checkout.html"><h3>Proceed to checkout</h3></a></td>
+		<td align="center"><a href="checkout.php"><h3>Proceed to checkout</h3></a></td>
     </tr>
 </table>

@@ -2,7 +2,7 @@
 <br />
 <fieldset>
     <legend><b>LOGIN</b></legend>
-    <form action="authenticated/index.html" target="_parent">
+    <form action="authenticated/index.php" target="_parent">
         <br/>
         <table>
             <tr>
@@ -21,6 +21,6 @@
         <br/><br/>
 		<hr/>
         <input type="submit" value="Submit">
-        <a href="forgot_password.html">Forgot Password?</a>
+        <a href="forgot_password.php">Forgot Password?</a>
     </form>
 </fieldset>
