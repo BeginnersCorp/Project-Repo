@@ -1,3 +1,4 @@
+<html>
 <table width="100%" align="center" cellspacing="0" cellpadding="10" border="1">
     <tr>
         <td valign="middle" height="70">
@@ -35,3 +36,4 @@
         </td>
     </tr>
 </table>
+</html>

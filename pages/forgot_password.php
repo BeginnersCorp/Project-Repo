@@ -1,3 +1,4 @@
+<html>
 <fieldset>This is message box</fieldset>
 <br/>
 <fieldset>
@@ -10,3 +11,4 @@
         <input type="submit" value="Submit" />
     </form>
 </fieldset>
+</html>

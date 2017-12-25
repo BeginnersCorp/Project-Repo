@@ -1,5 +1,5 @@
-
-        <h1 align="center"><b>Checkout</b><h1/>
+<html>
+        <h1 align="center"><b>Checkout</b></h1>
 
 <br/>
 <fieldset>
@@ -64,3 +64,4 @@
         <!--<a href="dashboard.php">Dashboard</a>-->
     </form>
 </fieldset>
+</html>

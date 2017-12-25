@@ -1,4 +1,4 @@
-
+<html>
         <b>SHOPPING CART</b>
 
 <br/>
@@ -38,3 +38,4 @@
 		<td align="center"><a href="checkout.php"><h3>Proceed to checkout</h3></a></td>
     </tr>
 </table>
+</html>
