@@ -1,3 +1,4 @@
+<html>
 <fieldset>This is message box</fieldset>
 <br />
 <fieldset>
@@ -54,3 +55,4 @@
         <a href="dashboard.php">Dashboard</a>
     </form>
 </fieldset>
+</html>

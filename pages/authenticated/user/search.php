@@ -1,3 +1,4 @@
+<html>
 <fieldset>
     <legend>
         <b>USER | SEARCH</b>
@@ -46,3 +47,4 @@
         <td width="45"><a href="delete.php">Delete</a></td>
     </tr>
 </table>
+</html>

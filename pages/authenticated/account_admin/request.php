@@ -1,4 +1,4 @@
-
+<html>
 <h2 align="center">Request by Guest</h2>
 <table width="100%" cellspacing="0" border="1" cellpadding="5">
     <tr>
@@ -36,3 +36,4 @@
 </script>
 <input type="button" onclick="msg1()" value="Approve">
 <input type="button" onclick="msg2()" value="Decline">
+</html>
