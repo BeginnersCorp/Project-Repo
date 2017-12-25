@@ -38,6 +38,10 @@
 							<td>Cream</td>
 							</tr>
 							<tr>
+							<td>Supported:</td>
+							<td>Any cars</td>
+							</tr>
+							<tr>
 							<td>Price:</td>
 							<td>670.00</td>
 							</tr>
