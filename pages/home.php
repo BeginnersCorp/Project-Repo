@@ -298,6 +298,7 @@
 		    <a href="product_details/bulb_socket.php">
 		    <img src="../resources/products/bulb_socket.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Bulb Socket<h3/>
 		    <h3 align="center">670 TK</h3>
 		</td>
 		
@@ -305,6 +306,7 @@
 		    <a href="product_details/window_switch1.php">
 		    <img src="../resources/products/window_switch1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Standard Window Switch<h3/>
 		    <h3 align="center">2100 TK</h3>
 		</td>
 		
@@ -312,6 +314,7 @@
 		    <a href="product_details/window_switch2.php">
 		    <img src="../resources/products/window_switch2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Standard Window Switch XP<h3/>
 		    <h3 align="center">2900 TK</h3>
 		</td>
 		
@@ -319,6 +322,7 @@
 		    <a href="product_details/carburator1.php">
 		    <img src="../resources/products/carburator1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Crown Carburator<h3/>
 		    <h3 align="center">15000 TK</h3>
 		</td>
 		
@@ -326,6 +330,7 @@
 		    <a href="product_details/carburator2.php">
 		    <img src="../resources/products/carburator2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Holley Carburator<h3/>
 		    <h3 align="center">20000 TK</h3>
 		</td>
 	</tr>
@@ -335,6 +340,7 @@
 		    <a href="product_details/radiator1.php">
 		    <img src="../resources/products/radiator1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Replacement Radiator<h3/>
 		    <h3 align="center">6600 TK</h3>
 		</td>
 		  
@@ -342,6 +348,7 @@
 		    <a href="product_details/radiator2.php">
 		    <img src="../resources/products/radiator2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Griffin Radiator<h3/>
 		    <h3 align="center">8500 TK</h3>
 		</td>
 		
@@ -349,7 +356,24 @@
 		    <a href="product_details/seat_belt.php">
 		    <img src="../resources/products/seat_belt.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Retro Seat Belt<h3/>
 		    <h3 align="center">1500 TK</h3>
+		</td>
+		
+		<td align="center">
+		    <a href="product_details/mirror_glass1.php">
+		    <img src="../resources/products/mirror_glass1.jpg" height="200" width="180" >
+		    </a><br/>
+			<h3 align="center">Kool Vue Mirror Glass<h3/>
+		    <h3 align="center">850 TK</h3>
+		</td>
+		
+		<td align="center">
+		    <a href="product_details/mirror_glass2.php">
+		    <img src="../resources/products/mirror_glass2.jpg" height="200" width="180" >
+		    </a><br/>
+			<h3 align="center">ULO Mirror Glass<h3/>
+		    <h3 align="center">1100 TK</h3>
 		</td>
 		
 	</tr>
