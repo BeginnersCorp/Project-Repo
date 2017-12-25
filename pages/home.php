@@ -76,13 +76,13 @@
 <table width= "100%" cellspacing="0" cellpadding="10" >
 	
 	<!--<td>
-		<a href="product_details/k.html">
+		<a href="product_details/k.php">
 			<img src="../resources/products/k.jpg" alt="../resources/products/k.jpg" height="200" width="180" >
 		</a>
 	</td>-->
 	<tr>
 	    <td align="center">
-		    <a href="product_details/red_sports_seat.html">
+		    <a href="product_details/red_sports_seat.php">
 			<img src="../resources/products/red_sports_seat.jpg" alt="../resources/products/red_sports_seat.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Red Sports Seat<h3/>
@@ -90,7 +90,7 @@
 	    </td>
 	
 	    <td align="center">
-		    <a href="product_details/red_sports_seat1.html">
+		    <a href="product_details/red_sports_seat1.php">
 			<img src="../resources/products/red_sports_seat1.jpg" alt="../resources/products/red_sports_seat1.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Orange Sports Seat<h3/>
@@ -98,7 +98,7 @@
 	    </td>
 	
 	    <td align="center">
-		    <a href="product_details/stearing_wheel.html">
+		    <a href="product_details/stearing_wheel.php">
 			<img src="../resources/products/stearing_wheel.jpg" alt="../resources/products/stearing_wheel.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">MK Steering Wheel<h3/>
@@ -106,7 +106,7 @@
 	    </td>
 	
 	    <td align="center">
-		    <a href="product_details/steering_wheel1.html">
+		    <a href="product_details/steering_wheel1.php">
 			<img src="../resources/products/steering_wheel1.jpg" alt="../resources/products/steering_wheel1.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Grant Steering Wheel<h3/>
@@ -114,7 +114,7 @@
 	    </td>
 	
 	    <td align="center">
-		    <a href="product_details/steering_wheel2.html">
+		    <a href="product_details/steering_wheel2.php">
 			<img src="../resources/products/steering_wheel2.jpg" alt="../resources/products/steering_wheel2.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">GT Steering Wheel<h3/>
@@ -122,7 +122,7 @@
 	    </td>
 	
 	    <td align="center">
-		    <a href="product_details/headlights1.html">
+		    <a href="product_details/headlights1.php">
 			<img src="../resources/products/headlights1.jpg" alt="../resources/products/headlights1.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Sedan Head Lights<h3/>
@@ -134,7 +134,7 @@
 	<tr>
 	
 	    <td align="center">
-		    <a href="product_details/headlights2.html">
+		    <a href="product_details/headlights2.php">
 			<img src="../resources/products/headlights2.jpg" alt="../resources/products/headlights2.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Sedan Head Lights XP<h3/>
@@ -142,7 +142,7 @@
 	    </td>
 	
 	    <td align="center">
-		    <a href="product_details/headlights3.html">
+		    <a href="product_details/headlights3.php">
 			<img src="../resources/products/headlights3.jpg" alt="../resources/products/headlights3.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">SUV Head Lights<h3/>
@@ -150,7 +150,7 @@
 	    </td>
 	
 		<td>
-			<a href="product_details/headlights4.html">
+			<a href="product_details/headlights4.php">
 			<img src="../resources/products/headlights4.jpg" alt="../resources/products/headlights4.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">SUV Head Lights XP<h3/>
@@ -158,7 +158,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/headlights5.html">
+			<a href="product_details/headlights5.php">
 			<img src="../resources/products/headlights5.jpg" alt="../resources/products/headlights5.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Sedan Head Lights GX<h3/>
@@ -166,7 +166,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/bumper1.html">
+			<a href="product_details/bumper1.php">
 			<img src="../resources/products/bumper1.jpg" alt="../resources/products/bumper1.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Sedan Bumpers (Front + Back + Side)<h3/>
@@ -174,7 +174,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/bumper2.html">
+			<a href="product_details/bumper2.php">
 			<img src="../resources/products/bumper2.jpeg" alt="../resources/products/bumper2.jpeg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Sedan Bumpers (Front + Back + Side)<h3/>
@@ -185,7 +185,7 @@
 		
 	<tr>
 		<td>
-			<a href="product_details/bumper3.html">
+			<a href="product_details/bumper3.php">
 			<img src="../resources/products/bumper3.jpg" alt="../resources/products/bumper3.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Sedan Bumpers (Front + Back + Side)</<h3/>
@@ -193,7 +193,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/crankshaft.html">
+			<a href="product_details/crankshaft.php">
 			<img src="../resources/products/crankshaft.jpg" alt="../resources/products/crankshaft.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Car Engine CRANKSHAFT<h3/>
@@ -201,7 +201,7 @@
 		</td>
 	
 		<td>
-			<a href="product_details/sparkplug.html">
+			<a href="product_details/sparkplug.php">
 			<img src="../resources/products/sparkplug.jpg" alt="../resources/products/sparkplug.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Car Engine CRANKSHAFT<h3/>
@@ -209,7 +209,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/airfilter.html">
+			<a href="product_details/airfilter.php">
 			<img src="../resources/products/airfilter.jpg" alt="../resources/products/airfilter.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Car Engine AIRFILTER<h3/>
@@ -217,7 +217,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/gearbox.html">
+			<a href="product_details/gearbox.php">
 			<img src="../resources/products/gearbox.jpg" alt="../resources/products/gearbox.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Car Engine GearBox<h3/>
@@ -225,7 +225,7 @@
 		</td>
 		
 		<td>
-			<a href="product_details/wiper.html">
+			<a href="product_details/wiper.php">
 			<img src="../resources/products/wiper.jpg" alt="../resources/products/wiper.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Car WindShield Wiper<h3/>
@@ -236,7 +236,7 @@
 		
 	<tr>
 		<td>
-			<a href="product_details/cardvd.html">
+			<a href="product_details/cardvd.php">
 			<img src="../resources/products/cardvd.jpg" alt="../resources/products/cardvd.jpg" height="200" width="180" >
 			</a><br/>
 			<h3 align="center">Car DVD Player<h3/>
@@ -244,7 +244,7 @@
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/brake_speed_sensor.html">
+		    <a href="product_details/brake_speed_sensor.php">
 		    <img src="../resources/products/brake_speed_sensor.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Brake Speed Sensor<h3/>
@@ -252,7 +252,7 @@
 		</td>
 	
 	    <td align="center">
-		    <a href="product_details/fog_light.html">
+		    <a href="product_details/fog_light.php">
 		    <img src="../resources/products/fog_light.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Fog Light<h3/>
@@ -260,7 +260,7 @@
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/wheel1.html">
+		    <a href="product_details/wheel1.php">
 		    <img src="../resources/products/wheel1.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Polished Aluminum Alloy Wheel<h3/>
@@ -268,7 +268,7 @@
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/wheel2.html">
+		    <a href="product_details/wheel2.php">
 		    <img src="../resources/products/wheel2.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">JK Alloy Wheel<h3/>
@@ -276,7 +276,7 @@
 		</td>
 		
         <td align="center">
-		    <a href="product_details/door_handle1.html">
+		    <a href="product_details/door_handle1.php">
 		    <img src="../resources/products/door_handle1.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">Dorman Door Handle<h3/>
@@ -286,7 +286,7 @@
 		
 	<tr>
 		<td align="center">
-		    <a href="product_details/door_handle2.html">
+		    <a href="product_details/door_handle2.php">
 		    <img src="../resources/products/door_handle2.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">URO Door Handle<h3/>
@@ -294,35 +294,35 @@
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/bulb_socket.html">
+		    <a href="product_details/bulb_socket.php">
 		    <img src="../resources/products/bulb_socket.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">670 TK</h3>
 		</td>
 		
         <td align="center">
-		    <a href="product_details/window_switch1.html">
+		    <a href="product_details/window_switch1.php">
 		    <img src="../resources/products/window_switch1.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">2100 TK</h3>
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/window_switch2.html">
+		    <a href="product_details/window_switch2.php">
 		    <img src="../resources/products/window_switch2.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">2900 TK</h3>
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/carburator1.html">
+		    <a href="product_details/carburator1.php">
 		    <img src="../resources/products/carburator1.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">15000 TK</h3>
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/carburator2.html">
+		    <a href="product_details/carburator2.php">
 		    <img src="../resources/products/carburator2.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">20000 TK</h3>
@@ -331,21 +331,21 @@
 		
 	<tr>
 		<td align="center">
-		    <a href="product_details/radiator1.html">
+		    <a href="product_details/radiator1.php">
 		    <img src="../resources/products/radiator1.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">6600 TK</h3>
 		</td>
 		  
 		<td align="center">
-		    <a href="product_details/radiator2.html">
+		    <a href="product_details/radiator2.php">
 		    <img src="../resources/products/radiator2.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">8500 TK</h3>
 		</td>
 		
 		<td align="center">
-		    <a href="product_details/seat_belt.html">
+		    <a href="product_details/seat_belt.php">
 		    <img src="../resources/products/seat_belt.jpg" height="200" width="180" >
 		    </a><br/>
 		    <h3 align="center">1500 TK</h3>
