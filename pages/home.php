@@ -85,6 +85,7 @@
 		    <a href="product_details/red_sports_seat.html">
 			<img src="../resources/products/red_sports_seat.jpg" alt="../resources/products/red_sports_seat.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Red Sports Seat<h3/>
 		    <h3 align="center">2500 TK<h3/>
 	    </td>
 	
@@ -92,6 +93,7 @@
 		    <a href="product_details/red_sports_seat1.html">
 			<img src="../resources/products/red_sports_seat1.jpg" alt="../resources/products/red_sports_seat1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Orange Sports Seat<h3/>
 		    <h3 align="center">2800 TK<h3/>
 	    </td>
 	
@@ -99,6 +101,7 @@
 		    <a href="product_details/stearing_wheel.html">
 			<img src="../resources/products/stearing_wheel.jpg" alt="../resources/products/stearing_wheel.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">MK Steering Wheel<h3/>
 		    <h3 align="center">1500 TK<h3/>
 	    </td>
 	
@@ -106,6 +109,7 @@
 		    <a href="product_details/steering_wheel1.html">
 			<img src="../resources/products/steering_wheel1.jpg" alt="../resources/products/steering_wheel1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Grant Steering Wheel<h3/>
 		    <h3 align="center">3000 TK<h3/>
 	    </td>
 	
@@ -113,6 +117,7 @@
 		    <a href="product_details/steering_wheel2.html">
 			<img src="../resources/products/steering_wheel2.jpg" alt="../resources/products/steering_wheel2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">GT Steering Wheel<h3/>
 		    <h3 align="center">4000 TK<h3/>
 	    </td>
 	
@@ -120,6 +125,7 @@
 		    <a href="product_details/headlights1.html">
 			<img src="../resources/products/headlights1.jpg" alt="../resources/products/headlights1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Sedan Head Lights<h3/>
 		    <h3 align="center">2000 TK<h3/>
 	    </td>
 	
@@ -131,6 +137,7 @@
 		    <a href="product_details/headlights2.html">
 			<img src="../resources/products/headlights2.jpg" alt="../resources/products/headlights2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Sedan Head Lights XP<h3/>
 		    <h3 align="center">2100 TK<h3/>
 	    </td>
 	
@@ -138,6 +145,7 @@
 		    <a href="product_details/headlights3.html">
 			<img src="../resources/products/headlights3.jpg" alt="../resources/products/headlights3.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">SUV Head Lights<h3/>
 		    <h3 align="center">2200 TK<h3/>
 	    </td>
 	
@@ -145,6 +153,7 @@
 			<a href="product_details/headlights4.html">
 			<img src="../resources/products/headlights4.jpg" alt="../resources/products/headlights4.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">SUV Head Lights XP<h3/>
 			<h3 align="center">2300 TK<h3/>
 		</td>
 		
@@ -152,6 +161,7 @@
 			<a href="product_details/headlights5.html">
 			<img src="../resources/products/headlights5.jpg" alt="../resources/products/headlights5.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Sedan Head Lights GX<h3/>
 			<h3 align="center">2400 TK<h3/>
 		</td>
 		
@@ -159,6 +169,7 @@
 			<a href="product_details/bumper1.html">
 			<img src="../resources/products/bumper1.jpg" alt="../resources/products/bumper1.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Sedan Bumpers (Front + Back + Side)<h3/>
 			<h3 align="center">5000 TK<h3/>
 		</td>
 		
@@ -166,6 +177,7 @@
 			<a href="product_details/bumper2.html">
 			<img src="../resources/products/bumper2.jpeg" alt="../resources/products/bumper2.jpeg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Sedan Bumpers (Front + Back + Side)<h3/>
 			<h3 align="center">2900 TK<h3/>
 		</td>
 		
@@ -176,6 +188,7 @@
 			<a href="product_details/bumper3.html">
 			<img src="../resources/products/bumper3.jpg" alt="../resources/products/bumper3.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Sedan Bumpers (Front + Back + Side)</<h3/>
 			<h3 align="center">3700 TK<h3/>
 		</td>
 		
@@ -183,6 +196,7 @@
 			<a href="product_details/crankshaft.html">
 			<img src="../resources/products/crankshaft.jpg" alt="../resources/products/crankshaft.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Car Engine CRANKSHAFT<h3/>
 			<h3 align="center">4700 TK<h3/>
 		</td>
 	
@@ -190,6 +204,7 @@
 			<a href="product_details/sparkplug.html">
 			<img src="../resources/products/sparkplug.jpg" alt="../resources/products/sparkplug.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Car Engine CRANKSHAFT<h3/>
 			<h3 align="center">700 TK<h3/>
 		</td>
 		
@@ -197,6 +212,7 @@
 			<a href="product_details/airfilter.html">
 			<img src="../resources/products/airfilter.jpg" alt="../resources/products/airfilter.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Car Engine AIRFILTER<h3/>
 			<h3 align="center">1100 TK<h3/>
 		</td>
 		
@@ -204,6 +220,7 @@
 			<a href="product_details/gearbox.html">
 			<img src="../resources/products/gearbox.jpg" alt="../resources/products/gearbox.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Car Engine GearBox<h3/>
 			<h3 align="center">11000 TK<h3/>
 		</td>
 		
@@ -211,6 +228,7 @@
 			<a href="product_details/wiper.html">
 			<img src="../resources/products/wiper.jpg" alt="../resources/products/wiper.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Car WindShield Wiper<h3/>
 			<h3 align="center">550 TK<h3/>
 		</td>
 		
@@ -221,6 +239,7 @@
 			<a href="product_details/cardvd.html">
 			<img src="../resources/products/cardvd.jpg" alt="../resources/products/cardvd.jpg" height="200" width="180" >
 			</a><br/>
+			<h3 align="center">Car DVD Player<h3/>
 			<h3 align="center">5550 TK<h3/>
 		</td>
 		
@@ -228,6 +247,7 @@
 		    <a href="product_details/brake_speed_sensor.html">
 		    <img src="../resources/products/brake_speed_sensor.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Brake Speed Sensor<h3/>
 		    <h3 align="center">2200 TK</h3>
 		</td>
 	
@@ -235,6 +255,7 @@
 		    <a href="product_details/fog_light.html">
 		    <img src="../resources/products/fog_light.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Fog Light<h3/>
 		    <h3 align="center">2810 TK</h3>
 		</td>
 		
@@ -242,6 +263,7 @@
 		    <a href="product_details/wheel1.html">
 		    <img src="../resources/products/wheel1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Polished Aluminum Alloy Wheel<h3/>
 		    <h3 align="center">8000 TK</h3>
 		</td>
 		
@@ -249,6 +271,7 @@
 		    <a href="product_details/wheel2.html">
 		    <img src="../resources/products/wheel2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">JK Alloy Wheel<h3/>
 		    <h3 align="center">5000 TK</h3>
 		</td>
 		
@@ -256,6 +279,7 @@
 		    <a href="product_details/door_handle1.html">
 		    <img src="../resources/products/door_handle1.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">Dorman Door Handle<h3/>
 		    <h3 align="center">850 TK</h3>
 		</td>
 	</tr>
@@ -265,6 +289,7 @@
 		    <a href="product_details/door_handle2.html">
 		    <img src="../resources/products/door_handle2.jpg" height="200" width="180" >
 		    </a><br/>
+			<h3 align="center">URO Door Handle<h3/>
 		    <h3 align="center">750 TK</h3>
 		</td>
 		
