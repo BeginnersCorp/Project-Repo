@@ -28,12 +28,12 @@
         </td>
     </tr>
     <tr width="100%" height="100%">
-        <td align="center" width="100%" height="100%">
+        <td>
             
             <iframe name="contentFrame" frameborder="0" width="100%" height="100%" src="home.php"></iframe>
         </td>
     </tr>
-    <tr>
+    <tr width="100%" height="100%">
         <td align="center">
             Copyright &copy; 2017
         </td>
