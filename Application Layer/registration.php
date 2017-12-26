@@ -16,7 +16,7 @@
 		$isValid = true;
         if(empty($email)){
             $isValid = false;
-            $emailErr = "*";
+            $emailErr = "*Field can not be empty";
         }
         else if(isValidEmail($email)==false){
             $isValid = false;
@@ -25,7 +25,7 @@
 		
 		if(empty($name)){
             $isValid = false;
-            $nameErr = "*";
+            $nameErr = "*Field can not be empty";
         }
         else if(isValidPersonName($name)==false){
             $isValid = false;
@@ -43,7 +43,7 @@
 		
 		if(empty($password)){
             $isValid = false;
-            $passErr = "*";
+            $passErr = "*Field can not be empty";
         }
 		
 		else if(isValidPassword($password)==false){
@@ -53,7 +53,7 @@
 		
 		if(empty($cpassword)){
             $isValid = false;
-            $cpassErr = "*";
+            $cpassErr = "*Field can not be empty";
         }
 		
 		else if($password!=$cpassword){
@@ -103,39 +103,40 @@
             <tr>
                 <td>Name</td>
                 <td>:</td>
-                <td><input name="name" type="text"></td>
-                <td></td>
+                <td><input name="name" type="text" value="<?=$name?>"></td>
+				<td><font color="red"><?=$nameErr?></font></td>
             </tr>		
             <tr><td colspan="4"><hr/></td></tr>
             <tr>
                 <td>Email</td>
                 <td>:</td>
                 <td>
-                    <input name="email" type="text">
+                    <input name="email" type="text" value="<?=$email?>"/>
                     <abbr title="hint: sample@example.com">
 						<img height="17" width="17" src="../Application Layer/resources/images/i.png">
 					</abbr>
                 </td>
-                <td></td>
+                <td><font color="red"><?=$emailErr?></font></td>
             </tr>		
             <tr><td colspan="4"><hr/></td></tr>
             <tr>
                 <td>Password</td>
                 <td>:</td>
-                <td><input name="password" type="password"></td>
-                <td></td>
+                <td><input name="password" type="password"> value="<?=$password?>"/></td>
+				<td><font color="red"><?=$passErr?></font></td>
             </tr>		
             <tr><td colspan="4"><hr/></td></tr>
             <tr>
                 <td>Confirm Password</td>
                 <td>:</td>
-                <td><input name="confirmPassword" type="password"></td>
-                <td></td>
+                <td><input name="cpassword" type="password"> value="<?=$cpassword?>"/></td>
+				<td><font color="red"><?=$cpassErr?></font></td>
             </tr>
         </table>
         <hr/>
         <input type="submit" value="Submit">
-        <input type="reset">
-    </form>
+        </form>
+	<a href="registration.php"><button>Reset</button></a>
 </fieldset>
 </html>
+</form>
