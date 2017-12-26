@@ -12,7 +12,7 @@
 						</a>
                     </td>
                     <td align="left">
-                        <a href="index.php" target="contentFrame">
+                        <a href="home.php" target="contentFrame">
 							<abbr title="HOME">
 								<img height="140" width="100" src="resources/images/home.png">
 							</abbr>
