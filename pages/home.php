@@ -726,6 +726,14 @@
 					<h3 align="center">1100 TK</h3>
 				</td>
 				
+				<td align="center">
+					<a href="product_details/window_regulator.php">
+					<img src="../resources/products/window_regulator.jpg" height="200" width="180" >
+					</a><br/>
+					<h3 align="center">Dorman Window Regulator<h3/>
+					<h3 align="center">2200 TK</h3>
+				</td>
+				
 			</tr>
 
 			
