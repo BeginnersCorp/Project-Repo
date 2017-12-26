@@ -6,7 +6,7 @@
                 <tr>
                     <td>
                         <a href="account_user/dashboard.php" target="contentFrame">
-                            <img height="140" width="100%" src="../../resources/images/x.jpg">
+                            <img height="140" width="100%" src="../../Application Layer/resources/images/x.jpg">
                         </a>
                     </td>
                     <td align="right">
