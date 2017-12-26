@@ -25,7 +25,7 @@
                 <td>
                     <input name="email" type="text">
                     <abbr title="hint: sample@example.com">
-						<img height="17" width="17" src="../resources/images/i.png">
+						<img height="17" width="17" src="../Application Layer/resources/images/i.png">
 					</abbr>
                 </td>
                 <td></td>
