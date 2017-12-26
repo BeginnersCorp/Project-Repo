@@ -15,7 +15,7 @@
 			<table border=5 height="100%">
 				<tr width="100%">
 					<td>
-						<img src="../../resources/products/window_regulator.jpg" alt="../../resources/products/window_regulator.jpg" height="500" width="400" >
+						<img src="../../Application layer/resources/products/window_regulator.jpg" alt="../../resources/products/window_regulator.jpg" height="500" width="400" >
 					</td>
 					<td width="100%" valign="top" align="center">
 						<h1><u><b>Product name : Dorman Window Regulator </b></u><h1> <br><br>
