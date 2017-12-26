@@ -58,7 +58,7 @@
                 <td>
                     <table>
                         <tr>
-                            <td><img width="150" height="200" src="../../../resources/products/red_sports_seat.jpg" /></td>
+                            <td><img width="150" height="200" src="../../../Application Layer/resources/products/red_sports_seat.jpg" /></td>
                             
                         </tr>
                     </table>

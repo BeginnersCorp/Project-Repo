@@ -64,7 +64,7 @@ function goBack() {
                 <td>
                     <table>
                         <tr>
-                            <td><img width="48" src="../../../resources/products/red_sports_seat.jpg" /></td>
+                            <td><img width="48" src="../../../Application Layer/resources/products/red_sports_seat.jpg" /></td>
                             <td><input type="file"></td>
                         </tr>
                     </table>
