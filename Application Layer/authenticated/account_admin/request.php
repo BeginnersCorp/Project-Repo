@@ -9,13 +9,13 @@
         <th colspan="3"></th>
     </tr>
     <tr>
-        <td align="center" width="80"><a> <img src="../../../resources/products/red_sports_seat.jpg"  width="80" height="100"> </a></td>
+        <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/red_sports_seat.jpg"  width="80" height="100"> </a></td>
         <td align="center">Red Sports Seat 1</td>
 		<td align="center">Interior</td>
         <td align="center">25000</td>
     </tr>
     <tr>
-        <td align="center" width="80"><a> <img src="../../../resources/products/red_sports_seat1.jpg"  width="80" height="100"> </a></td>
+        <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/red_sports_seat1.jpg"  width="80" height="100"> </a></td>
         <td align="center">Red Sports Seat 2</td>
 		<td align="center">Interior</td>
         <td align="center">28000</td>

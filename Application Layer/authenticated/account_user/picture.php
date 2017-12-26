@@ -4,7 +4,7 @@
 <fieldset>
     <legend><b>PROFILE PICTURE</b></legend>
     <form>
-        <img width="128" src="../../../resources/images/user.png" />
+        <img width="128" src="../../../Application Layer/resources/images/user.png" />
         <br />
         <input type="file">
         <hr />

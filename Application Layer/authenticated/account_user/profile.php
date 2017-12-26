@@ -15,7 +15,7 @@
                 <td>:</td>
                 <td>Bob</td>
                 <td rowspan="7" align="center">
-                    <img width="128" src="../../../resources/images/user.png"/>
+                    <img width="128" src="../../../Application Layer/resources/images/user.png"/>
                     <br/>
                     <a href="picture.php">Change</a>
                 </td>
