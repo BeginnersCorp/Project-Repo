@@ -25,30 +25,6 @@
                 <td>Email</td>
                 <td>:</td>
                 <td>bob@aiub.edu</td>
-            </tr>		
-            <tr><td colspan="3"><hr/></td></tr>			
-            <tr>
-                <td>Gender</td>
-                <td>:</td>
-                <td>Male</td>
-            </tr>
-            <tr><td colspan="3"><hr/></td></tr>
-            <tr>
-                <td>Date of Birth</td>
-                <td>:</td>
-                <td>19/09/1998</td>
-            </tr>
-            <tr><td colspan="3"><hr/></td></tr>
-            <tr>
-                <td>Role</td>
-                <td>:</td>
-                <td>Admin</td>
-            </tr>
-            <tr><td colspan="3"><hr/></td></tr>
-            <tr>
-                <td>Status</td>
-                <td>:</td>
-                <td>Active</td>
             </tr>
             <tr><td colspan="3"><hr/></td></tr>
             <tr>

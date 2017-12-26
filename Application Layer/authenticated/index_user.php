@@ -35,9 +35,26 @@
         </td>
     </tr>
     <tr>
-        <td colspan="2" align="center">
-            Copyright &copy; 2017
-        </td>
+		<td valign="middle">
+			<table width="100%" align="center" cellspacing="0" cellpadding="10" border="0">
+				<tr>
+					<td align="middle">
+						<h2>Information<h2><br/>
+						<a href="../about.php">About Us</a><br/>
+						<a href="../contact.php">Contact Us</a>
+					</td>
+					
+					<td align="center">
+						Copyright &copy; 2017<br/>All rights reserved by AutoMart.com
+					</td>
+					
+					<td align="middle">
+						<h2>Our Location</h2><br/>
+						Mirpur Shoping Complex<br/>Mirpur-2,Dhaka
+					</td>
+				</tr>
+			</table>
+		</td>
     </tr>
 </table>
 </html>
