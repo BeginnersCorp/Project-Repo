@@ -7,19 +7,19 @@
                     <td>
                         <a href="home.php" target="contentFrame">
 							<abbr title="AutoMart">
-								<img height="140" width="800" src="../resources/images/x.jpg">
+								<img height="140" width="800" src="../Application Layer/resources/images/x.jpg">
 							</abbr>
 						</a>
                     </td>
                     <td align="left">
                         <a href="home.php" target="contentFrame">
 							<abbr title="HOME">
-								<img height="140" width="100" src="../resources/images/home.png">
+								<img height="140" width="100" src="../Application Layer/resources/images/home.png">
 							</abbr>
 						</a>
                         <a href="cart.php" target="contentFrame">
 							<abbr title="CART">
-								<img height="120" width="100" src="../resources/images/cart.png">
+								<img height="120" width="100" src="../Application Layer/resources/images/cart.png">
 							</abbr>
 						</a>
                     </td>
