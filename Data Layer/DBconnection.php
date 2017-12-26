@@ -1,7 +1,7 @@
 <?php
-	$host="localhost";
-    $user="root";
-    $pass="";
+	$server="localhost";
+    $username="root";
+    $password="";
     $dbname="ecommerce";
     $port=3306;
 
