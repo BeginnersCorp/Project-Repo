@@ -15,7 +15,7 @@
 			<table border=5 height="100%">
 				<tr width="100%">
 					<td>
-						<img src="../../resources/products/gearbox.jpg" alt="../../resources/products/gearbox.jpg" height="500" width="400" >
+						<img src="../../Application Layer/resources/products/gearbox.jpg" alt="../../resources/products/gearbox.jpg" height="500" width="400" >
 					</td>
 					<td width="100%" valign="top" align="center">
 						<h1><u><b>Product name : Car Engine GEARBOX</b></u><h1> <br><br>
