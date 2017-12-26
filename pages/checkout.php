@@ -4,7 +4,7 @@
 <br/>
 <fieldset>
     <legend></legend>
-    <form action="thank_you.html">
+    <form action="thank_you.php">
         <br/>
         <table width="100%" cellpadding="0" cellspacing="0">
             <tr>

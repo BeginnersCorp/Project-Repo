@@ -27,9 +27,8 @@
             </table>
         </td>
     </tr>
-    <tr width="100%" height="100%">
+    <tr width="100%" height='1000'>
         <td>
-            
             <iframe name="contentFrame" frameborder="0" width="100%" height="100%" src="home.php"></iframe>
         </td>
     </tr>
