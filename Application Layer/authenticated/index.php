@@ -6,7 +6,7 @@
                 <tr>
                     <td>
                         <a href="../index.php">
-                            <img height="140" width="800" src="../../resources/images/x.jpg">
+                            <img height="140" width="800" src="../../Application Layer/resources/images/x.jpg">
                         </a>
                     </td>
                     <td align="right">
