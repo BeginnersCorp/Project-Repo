@@ -15,7 +15,7 @@
 			<table border=5 height="100%">
 				<tr width="100%">
 					<td>
-						<img src="../../resources/products/mirror_glass2.jpg" alt="../../resources/products/mirror_glass2.jpg" height="500" width="400" >
+						<img src="../../Application Layer/resources/products/mirror_glass2.jpg" alt="../../resources/products/mirror_glass2.jpg" height="500" width="400" >
 					</td>
 					<td width="100%" valign="top" align="center">
 						<h1><u><b>Product name : ULO Mirror Glass </b></u><h1> <br><br>
