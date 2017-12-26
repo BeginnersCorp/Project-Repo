@@ -15,7 +15,7 @@
 			<table border=5 height="100%">
 				<tr width="100%">
 					<td>
-						<img src="../../resources/products/wheel2.jpg" alt="../../resources/products/wheel2.jpg" height="500" width="400" >
+						<img src="../../Application layer/resources/products/wheel2.jpg" alt="../../resources/products/wheel2.jpg" height="500" width="400" >
 					</td>
 					<td width="100%" valign="top" align="center">
 						<h1><u><b>Product name : JK Alloy Wheel</b></u><h1> <br><br>
