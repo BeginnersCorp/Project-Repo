@@ -373,7 +373,7 @@
 		    <img src="../resources/products/mirror_glass2.jpg" height="200" width="180" >
 		    </a><br/>
 			<h3 align="center">ULO Mirror Glass<h3/>
-		    <h3 align="center">1100 TK</h3>
+		    <h3 align="center">1200 TK</h3>
 		</td>
 		
 	</tr>
