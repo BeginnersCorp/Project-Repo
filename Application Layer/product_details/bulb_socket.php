@@ -15,7 +15,7 @@
 			<table border=5 height="100%">
 				<tr width="100%">
 					<td>
-						<img src="../../resources/products/bulb_socket.jpg" alt="../../resources/products/bulb_socket.jpg" height="500" width="400" >
+						<img src="../../Application Layer/resources/products/bulb_socket.jpg" alt="../../resources/products/bulb_socket.jpg" height="500" width="400" >
 					</td>
 					<td width="100%" valign="top" align="center">
 						<h1><u><b>Product name : Dorman Bulb Socket</b></u><h1> <br><br>
