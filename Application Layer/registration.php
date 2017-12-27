@@ -1,4 +1,4 @@
-<?php require_once "../Service Layer/validation_service.php"; ?>
+<?php require_once "../Service Layer/validation.php"; ?>
 
 <?php
 	$name=$email=$password=$cpassword="";
@@ -122,14 +122,14 @@
             <tr>
                 <td>Password</td>
                 <td>:</td>
-                <td><input name="password" type="password"> value="<?=$password?>"/></td>
+                <td><input name="password" type="password" value="<?=$password?>"/></td>
 				<td><font color="red"><?=$passErr?></font></td>
             </tr>		
             <tr><td colspan="4"><hr/></td></tr>
             <tr>
                 <td>Confirm Password</td>
                 <td>:</td>
-                <td><input name="cpassword" type="password"> value="<?=$cpassword?>"/></td>
+                <td><input name="cpassword" type="password" value="<?=$cpassword?>"/></td>
 				<td><font color="red"><?=$cpassErr?></font></td>
             </tr>
         </table>

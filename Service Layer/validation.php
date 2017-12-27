@@ -16,9 +16,9 @@
 		$validemail = false ;
 		if(filter_var($email, FILTER_VALIDATE_EMAIL))
 			{
-				validemail = true ;
+				$validemail = true ;
 			}
-		return validemail ;
+		return $validemail ;
 	}
 	
 	function IsValidPassword($password)
