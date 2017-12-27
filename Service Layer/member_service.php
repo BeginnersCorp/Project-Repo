@@ -1,4 +1,4 @@
-<?php require_once "../data/member_data_access.php"; ?>
+<?php require_once "../Data Layer/member_data_access.php"; ?>
 <?php
     function addMember($member){
         return addMemberToDB($member);
