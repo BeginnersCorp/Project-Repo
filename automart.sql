@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.4
+-- version 4.6.5.2
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2017 at 05:32 PM
--- Server version: 10.1.26-MariaDB
--- PHP Version: 7.1.9
+-- Generation Time: Dec 27, 2017 at 07:06 PM
+-- Server version: 10.1.21-MariaDB
+-- PHP Version: 5.6.30
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -25,6 +23,21 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `admin`
+--
+
+CREATE TABLE `admin` (
+  `Member_ID` varchar(10) NOT NULL,
+  `Name` varchar(100) NOT NULL,
+  `Email` varchar(30) NOT NULL,
+  `Password` varchar(30) NOT NULL,
+  `Member_Since` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `Last_Logged_in` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `member`
 --
 
@@ -36,7 +49,14 @@ CREATE TABLE `member` (
   `Member_Since` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Last_Logged_in` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-COMMIT;
+
+--
+-- Dumping data for table `member`
+--
+
+INSERT INTO `member` (`Member_ID`, `Name`, `Email`, `Password`, `Member_Since`, `Last_Logged_in`) VALUES
+('1', 'Zubaer Ahmed', 'zsakib30@gmail.com', '1234', '2017-12-27 16:52:05', '2017-12-27 16:52:05'),
+('2', 'Sakib Zubaer', 'sakib@automart.com', '123456', '2017-12-27 17:56:44', '2017-12-27 17:56:44');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
