@@ -5,14 +5,14 @@
             <table width="100%" height="100%" align="center" cellspacing="0" cellpadding="10" border="0">
                 <tr>
                     <td>
-                        <a href="Application Layer/home.php" target="contentFrame">
+                        <a href="index.php">
 							<abbr title="AutoMart">
 								<img height="140" width="800" src="Application Layer/resources/images/x.jpg">
 							</abbr>
 						</a>
                     </td>
                     <td align="left">
-                        <a href="Application Layer/home.php" target="contentFrame">
+                        <a href="index.php">
 							<abbr title="HOME">
 								<img height="140" width="100" src="Application Layer/resources/images/home.png">
 							</abbr>
@@ -33,8 +33,8 @@
 				<tr>
 					<td align="middle">
 						<h2>Information<h2><br/>
-						<a href="Application Layer/about.php">About Us</a><br/>
-						<a href="Application Layer/contact.php">Contact Us</a>
+						<a href="Application Layer/about.php" target="contentFrame">About Us</a><br/>
+						<a href="Application Layer/contact.php" target="contentFrame">Contact Us</a>
 					</td>
 					
 					<td align="center">
