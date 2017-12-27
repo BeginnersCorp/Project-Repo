@@ -5,14 +5,14 @@
             <table width="100%" height="100%" align="center" cellspacing="0" cellpadding="10" border="0">
                 <tr>
                     <td>
-                        <a href="index.php" target="contentFrame">
+                        <a href="../index.php" target="contentFrame">
 							<abbr title="AutoMart">
 								<img height="140" width="800" src="resources/images/x.jpg">
 							</abbr>
 						</a>
                     </td>
                     <td align="left">
-                        <a href="index.php" target="contentFrame">
+                        <a href="../index.php" target="contentFrame">
 							<abbr title="HOME">
 								<img height="140" width="100" src="resources/images/home.png">
 							</abbr>

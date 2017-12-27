@@ -5,16 +5,16 @@
             <table width="100%" height="100%" align="center" cellspacing="0" cellpadding="10" border="0">
                 <tr>
                     <td>
-                        <a href="home.php" target="contentFrame">
+                        <a href="Application Layer/home.php" target="contentFrame">
 							<abbr title="AutoMart">
-								<img height="140" width="800" src="resources/images/x.jpg">
+								<img height="140" width="800" src="Application Layer/resources/images/x.jpg">
 							</abbr>
 						</a>
                     </td>
                     <td align="left">
-                        <a href="home.php" target="contentFrame">
+                        <a href="Application Layer/home.php" target="contentFrame">
 							<abbr title="HOME">
-								<img height="140" width="100" src="resources/images/home.png">
+								<img height="140" width="100" src="Application Layer/resources/images/home.png">
 							</abbr>
 						</a>
                     </td>
@@ -24,7 +24,7 @@
     </tr>
     <tr width="100%" height='1000'>
         <td>
-            <iframe name="contentFrame" frameborder="0" width="100%" height="100%" src="home.php"></iframe>
+            <iframe name="contentFrame" frameborder="0" width="100%" height="100%" src="Application Layer/home.php"></iframe>
         </td>
     </tr>
     <tr>
@@ -33,8 +33,8 @@
 				<tr>
 					<td align="middle">
 						<h2>Information<h2><br/>
-						<a href="about.php">About Us</a><br/>
-						<a href="contact.php">Contact Us</a>
+						<a href="Application Layer/about.php">About Us</a><br/>
+						<a href="Application Layer/contact.php">Contact Us</a>
 					</td>
 					
 					<td align="center">
