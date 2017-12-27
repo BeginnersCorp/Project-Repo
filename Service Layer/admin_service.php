@@ -69,11 +69,11 @@
         return $isUnique;
     }
     
-    function isValidAdmin($memberId){
-        $members = getAllMembers();
+    function isValidAdmin($email){
+        $members = getAllAdmins();
         $isValid = false;
         foreach($members as $member){
-            if($member['id']==$memberId){
+            if($member['email']==$email){
                 $isValid = true;
                 break;
             }
