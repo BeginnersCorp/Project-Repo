@@ -27,6 +27,10 @@
 								
 							</td>
 							<td width="800">
+								<td align="right">
+					<a href="login.php" target="contentFrame">Login</a>&nbsp;|
+					<a href="home.php" target="contentFrame">Home</a>
+				    </td>
 								
 								<h2>How to Buy</h2>
 								<h3>Pay Cash on Delivery after receiving your product at your home!</h3>
