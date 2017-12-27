@@ -2,7 +2,7 @@
     $host="127.0.0.1";
     $user="root";
     $pass="";
-    $dbname="easylife_db";
+    $dbname="automart";
     $port=3306;
    
     function executeSQL($sql){
