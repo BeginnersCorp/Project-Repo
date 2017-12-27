@@ -1,20 +1,20 @@
 <?php require_once "data_access.php"; ?>
 <?php
-	function addMemberToDB($member)
+	function addAdminToDB($member)
 	{
         $sql = "INSERT INTO admin(Member_ID, Name, Email, Password) VALUES ('$member[Member_ID]', '$member[Name]', '$member[Email]', '$member[Password]')" ;
         $result = executeSQL($sql);
         return $result;
     }
 
-	function editMemberToDB($member)
+	function editAdminToDB($member)
 	{
         $sql = "UPDATE admin SET Name='$member[Name]',Email='$member[Email]', Password='$member[Password]' WHERE Member_ID='$member[Member_ID]'";
         $result = executeSQL($sql);
         return $result;
     }
 	
-	function changeMemberPasswordToDB($pass,$id)
+	function changeAdminPasswordToDB($pass,$id)
 	{
         $sql = "UPDATE admin SET Password='$pass' WHERE Member_ID='$id'";
         $result = executeSQL($sql);
@@ -28,14 +28,14 @@
         return $result;
     }
 	
-	function deleteMemberFromDB($member)
+	function deleteAdminFromDB($member)
 	{
         $sql = "DELETE FROM admin WHERE Member_ID='$member[Member_ID]'";
         $result = executeSQL($sql);
         return $result;
     }
 	
-	function getAllMembersFromDB()
+	function getAllAdminsFromDB()
 	{
         $sql = "SELECT * FROM admin";        
         $result = executeSQL($sql);
@@ -47,7 +47,7 @@
         return $members;
     }
 	
-	function getLastMemberIDFromDB()
+	function getLastAdminIDFromDB()
 	{
         $sql = "SELECT MAX(Member_ID) FROM admin";        
         $result = executeSQL($sql);
@@ -57,7 +57,7 @@
         return $member;
     }
 	
-	function getMemberByIDFromDB($Member_ID)
+	function getAdminByIDFromDB($Member_ID)
 	{
         $sql = "SELECT * FROM admin WHERE Member_ID=$Member_ID";        
         $result = executeSQL($sql);
@@ -67,7 +67,7 @@
         return $member;
     }
 	
-	function getMemberByUserNameFromDB($User_Name)
+	function getAdminByUserNameFromDB($User_Name)
 	{
         $sql = "SELECT * FROM admin WHERE User_Name=$User_Name";        
         $result = executeSQL($sql);
@@ -77,7 +77,7 @@
         return $member;
     }
 
-	function getMembersByNameFromDB($Name)
+	function getAdminsByNameFromDB($Name)
 	{
         $sql = "SELECT * FROM admin WHERE Name LIKE '%$Name%'";
         $result = executeSQL($sql);
@@ -90,7 +90,7 @@
         return $members;
     }
 	
-	function getMemberByEmailFromDB($Email)
+	function getAdminByEmailFromDB($Email)
 	{
         $sql = "SELECT * FROM admin WHERE Email=$Email";        
         $result = executeSQL($sql);
