@@ -38,7 +38,7 @@
         $members  = getAllMembers();
         $isUnique = true;
         foreach($members as $member){
-            if($member['email']==$memberEmail){
+            if($member['Email']==$memberEmail){
                 $isUnique = false;
                 break;
             }

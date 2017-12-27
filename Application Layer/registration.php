@@ -18,10 +18,20 @@
             $isValid = false;
             $emailErr = "*Field can not be empty";
         }
-        else if(isValidEmail($email)==false){
+        else
+		{
+			if(isUniqueMemberEmail($email) == false)
+			{
+				$isValid = false;
+				$emailErr = "Email ID already exists. Please another email ID" ;
+			}
+			
+			if(isValidEmail($email) == false)
+			{
             $isValid = false;
             $emailErr = "Invalid email format";
-        }
+			}
+		}
 		
 		if(empty($name)){
             $isValid = false;
