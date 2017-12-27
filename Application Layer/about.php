@@ -51,6 +51,18 @@
 		</td>
 	</tr>
 	
+	<tr>
+	   <td>
+	       <h2>Excellent Customer Service</h2>
+		   <h3>We know how to give you the most reliable products and the greatest deals.The people behind the business are experts in the field.This expertise, combined with our desire to give you only the best,is our customer satisfaction guaranteed from website browsing, to order placing, and finally to shipping.</h3>
+		</td>
+	</tr>
+	
+	<tr>
+	    <td>
+	       <h2>Whatever your needed auto parts and accessories are,we're the AutoMart here to help you.</h2>
+        </td>
+    </tr>
 	
 	<tr>
 		<td valign="middle">
