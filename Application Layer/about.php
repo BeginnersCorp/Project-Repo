@@ -44,6 +44,13 @@
         </td>
 	</tr>
 	
+	<tr>
+	    <td>
+		    <h2>Convenient and Secure Shopping</h2>
+	        <h3>We at AutoMart try our best  to make your shopping experience hassle-free and convenient.We also provide you with an option to shop by part with our part categories or to shop by simply typing in the part name.So,you have full control  as you do your shooping.</h3>
+		</td>
+	</tr>
+	
 	
 	<tr>
 		<td valign="middle">
