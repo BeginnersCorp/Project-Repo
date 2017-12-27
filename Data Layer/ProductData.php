@@ -32,6 +32,4 @@
 		}
 		return $products ;
 	}
-	
-	function 
 ?>
