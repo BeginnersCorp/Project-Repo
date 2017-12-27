@@ -54,45 +54,47 @@
 </script>
 
 <?php
-							 if($_SERVER['REQUEST_METHOD']=="POST")
-							 {
-								$members=getAllMembersFromDB();
-								$email=trim($_POST['email']);
-								$pass=trim($_POST['pass']);
-									$v=false;
-								foreach($members as $member)
-								{
-										if($member['Email']==$email)
-										{
-											if($member['Password']==$pass)
-											{
-									
-												if($member['Type']==1)
-												{
-													echo "<script>				
-															document.location='authenticated/index';
-														 </script>";
-												}
-												if($member['Type']==4)
-												{
-													$_SESSION['member_id']=$member['Member_ID'];
-														$_SESSION['member_name']=$member['Name'];
-													echo "<script>				
-															document.location='authenticated/index_user';
-														 </script>";
-												}
-												
-											}
-											else{
-												echo "<div><font color=red>"."Login was unsuccessful.<br/>Wrong password!!!"."</font></div>";
-											}
-											$v=true;
-										}
-								}
-								if($v==false){echo "<div><font color=red>"."Login was unsuccessful.<br/>Customer account not found!!!"."</font></div>";}
-							 }
-				?>
-<fieldset>
+	 if($_SERVER['REQUEST_METHOD']=="POST")
+	 {
+		$members=getAllMembersFromDB();
+		$email=trim($_POST['email']);
+		$pass=trim($_POST['pass']);
+			$v=false;
+		foreach($members as $member)
+		{
+				if($member['Email']==$email)
+				{
+					if($member['Password']==$pass)
+					{
+						// session_start();
+						// $_SESSION['easylife_email'] = $email;
+						
+						if($member['Type']==1)
+						{
+							echo "<script>				
+									document.location='authenticated/index.php';
+								 </script>";
+						}
+						if($member['Type']==0)
+						{
+							$_SESSION['member_id']=$member['Member_ID'];
+								$_SESSION['member_name']=$member['Name'];
+							echo "<script>				
+									document.location='authenticated/index_user.php';
+								 </script>";
+						}
+						
+					}
+					else{
+						echo "<div><font color=red>"."Login was unsuccessful.<br/>Wrong password!!!"."</font></div>";
+					}
+					$v=true;
+				}
+		}
+		if($v==false){echo "<div><font color=red>"."Login was unsuccessful.<br/>Customer account not found!!!"."</font></div>";}
+	 }
+?>
+<fieldset method="post">
     <legend><b>LOGIN</b></legend>
     <form target="_parent" method="post">
         <br/>
@@ -107,7 +109,6 @@
                 <td>:</td>
                 <td><input type="password" id="pass" name="pass" size="50"/><span id="passmsg"></span></td>
             </tr>
-			
         </table>
 		<hr/>
         <input type="submit" value="Submit">

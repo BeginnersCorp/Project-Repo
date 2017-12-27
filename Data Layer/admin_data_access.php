@@ -35,7 +35,7 @@
         return $result;
     }
 	
-	function getAllAdminsFromDB()
+	function admin()
 	{
         $sql = "SELECT * FROM admin";        
         $result = executeSQL($sql);

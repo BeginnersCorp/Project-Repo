@@ -1,9 +1,20 @@
+<?php session_start(); ?>
 <?php require_once "../Service Layer/validation_service.php"; ?>
 <?php require_once "../Data Layer/member_data_access.php"; ?>
 <?php require_once "../Service Layer/member_service.php"; ?>
 <?php
 	$name=$email=$password=$cpassword="";
 	$nameErr=$emailErr=$passErr=$cpassErr=$typeErr=$gErr="";
+	if(isset($_SESSION['member_name']))
+	{
+		$memberName=$_SESSION['member_name'];
+		$memberID=$_SESSION['member_id'];
+	}
+	else
+	{
+		$memberID="";
+	}
+	
 ?>
 
 <?php
@@ -86,6 +97,14 @@
 		}
 		
     }
+	if(isset($_COOKIE['user_qty']))
+	{
+		$noOfProduct=count($_COOKIE['user_qty']);
+	}
+	else
+	{
+		$noOfProduct=0;
+	}
 ?>
 
 
