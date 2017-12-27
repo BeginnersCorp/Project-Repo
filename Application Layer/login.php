@@ -1,55 +1,113 @@
-<?php require_once "../Service Layer/validation_service.php"; ?>
-<?php require_once "../Data Layer/admin_data_access.php"; ?>
-<?php require_once "../Service Layer/admin_service.php"; ?>
-
+<?php session_start(); ?>
+<?php require_once "../Service Layer/member_service.php"; ?>
 <?php
-		$email=$pass="" ;
-		
-		if($_SERVER['REQUEST_METHOD']=="POST")
-		{
-			$email=trim($_POST['email']);
-			$pass=trim($_POST['pass']);
-			$usertype=trim($_POST['user']);
-			$valid = true ;
-			
-			if(empty($email))
-			{
-				$valid = false ;
-				$emailErr = "*Field can not be empty" ;
-			}
-			else
-			{
-				if($usertype == "user")
-				{
-					if()
-				}
-			}
-		}
+	if(isset($_COOKIE['user_qty']))
+	{
 
+		$noOfProduct=count($_COOKIE['user_qty']);
+	}
+	else
+	{
+		$noOfProduct=0;
+	}
+	
+
+	if(isset($_SESSION['member_name']))
+	{
+		$memberName=$_SESSION['member_name'];
+		$memberID=$_SESSION['member_id'];
+	}
+	else
+	{
+		$memberID="";
+	}
 ?>
 
 <html>
+<script>
+	function validate(){
+		
+		var nameTextBox = document.getElementById("name");
+		var passTextBox = document.getElementById("pass");
+		
+				
+		var nameMsgBox = document.getElementById("namemsg");	
+		var passMsgBox = document.getElementById("passmsg");	
+
+		name = nameTextBox.value;	
+		pass = passTextBox.value;
+		
+		
+		if(name==""){
+			nameMsgBox.innerHTML = "*Field can not be empty";return false;
+		}else{
+			nameMsgBox.innerHTML = "";
+		}
+		if(pass==""){
+			passMsgBox.innerHTML = "*Field can not be empty";return false;
+		}
+		else{
+			passMsgBox.innerHTML = "";return true;
+		}
+		
+	}
+</script>
+
+<?php
+							 if($_SERVER['REQUEST_METHOD']=="POST")
+							 {
+								$members=getAllMembersFromDB();
+								$email=trim($_POST['email']);
+								$pass=trim($_POST['pass']);
+									$v=false;
+								foreach($members as $member)
+								{
+										if($member['Email']==$email)
+										{
+											if($member['Password']==$pass)
+											{
+									
+												if($member['Type']==1)
+												{
+													echo "<script>				
+															document.location='authenticated/index';
+														 </script>";
+												}
+												if($member['Type']==4)
+												{
+													$_SESSION['member_id']=$member['Member_ID'];
+														$_SESSION['member_name']=$member['Name'];
+													echo "<script>				
+															document.location='authenticated/index_user';
+														 </script>";
+												}
+												
+											}
+											else{
+												echo "<div><font color=red>"."Login was unsuccessful.<br/>Wrong password!!!"."</font></div>";
+											}
+											$v=true;
+										}
+								}
+								if($v==false){echo "<div><font color=red>"."Login was unsuccessful.<br/>Customer account not found!!!"."</font></div>";}
+							 }
+				?>
 <fieldset>
     <legend><b>LOGIN</b></legend>
-    <form action="authenticated/index.php" target="_parent" method="post">
+    <form target="_parent" method="post">
         <br/>
         <table>
             <tr>
                 <td>Email</td>
                 <td>:</td>
-                <td><input type="text" name="email" value="<?$email?>" ></td>
+                <td><input id="name" name="email" size="50"/><span id="namemsg"></span></td>
             </tr>
             <tr>
                 <td>Password</td>
                 <td>:</td>
-                <td><input type="password" name="pass" value="<?$pass?>" ></td>
+                <td><input type="password" id="pass" name="pass" size="50"/><span id="passmsg"></span></td>
             </tr>
-			<tr>
-				<fieldset>
-					<input name="user" value="admin" type="radio"/>Admin
-					<input name="user" value="user" type="radio" checked />User
-				</fieldset>
-			</tr>
+			
         </table>
 		<hr/>
         <input type="submit" value="Submit">
