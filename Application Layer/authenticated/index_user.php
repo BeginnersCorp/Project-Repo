@@ -11,7 +11,7 @@
                     </td>
                     <td align="right">
                         Logged in as <a href="account_user/profile.php" target="contentFrame">Bob</a>&nbsp;|
-                        <a href="../index.php">Logout</a>
+                        <a href="../../index.php">Logout</a>
                     </td>
                 </tr>
             </table>
@@ -24,9 +24,8 @@
                 <li><a href="account_user/dashboard.php" target="contentFrame">Dashboard</a></li>
                 <li><a href="account_user/profile.php" target="contentFrame">View Profile</a></li>
                 <li><a href="account_user/edit_profile.php" target="contentFrame">Edit Profile</a></li>
-                <li><a href="account_user/picture.php" target="contentFrame">Change Profile Picture</a></li>
                 <li><a href="account_user/change_password.php" target="contentFrame">Change Password</a></li>
-                <li><a href="../index.php">Logout</a></li>
+                <li><a href="../../index.php">Logout</a></li>
             </ul>
 			<hr />
         </td>
@@ -34,27 +33,23 @@
             <iframe name="contentFrame" frameborder="0" width="100%" height="530" src="account_user/dashboard.php"></iframe>
         </td>
     </tr>
-    <tr>
-		<td valign="middle">
-			<table width="100%" align="center" cellspacing="0" cellpadding="10" border="0">
-				<tr>
-					<td align="middle">
-						<h2>Information<h2><br/>
-						<a href="../about.php">About Us</a><br/>
-						<a href="../contact.php">Contact Us</a>
-					</td>
-					
-					<td align="center">
-						Copyright &copy; 2017<br/>All rights reserved by AutoMart.com
-					</td>
-					
-					<td align="middle">
-						<h2>Our Location</h2><br/>
-						Mirpur Shoping Complex<br/>Mirpur-2,Dhaka
-					</td>
-				</tr>
-			</table>
+</table>
+<table width="100%" align="center" cellspacing="0" cellpadding="10" border="1">
+	<tr>
+		<td align="middle">
+			<h2>Information<h2><br/>
+			<a href="../about.php" target="contentFrame">About Us</a><br/>
+			<a href="../contact.php" target="contentFrame">Contact Us</a>
 		</td>
-    </tr>
+		
+		<td align="center">
+			Copyright &copy; 2017<br/>All rights reserved by AutoMart.com
+		</td>
+		
+		<td align="middle">
+			<h2>Our Location</h2><br/>
+			Mirpur Shoping Complex<br/>Mirpur-2,Dhaka
+		</td>
+	</tr>
 </table>
 </html>
