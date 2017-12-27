@@ -37,7 +37,15 @@
 		
     </tr>
 	
-    <tr>
+	<tr>
+	    <td>
+		    <h2>Low Prices on All Parts</h2>
+			<h3>Because we conduct our business online and because we ship direct from our warehouses,we dont have to charge you for expenses on office maintenance and store personnelThis way, we pass the savings on you.Our rates are among the lowest online so much so that we are confident enough to offer a low price guarantee on all our products.</h3>
+        </td>
+	</tr>
+	
+	
+	<tr>
 		<td valign="middle">
 			<table width="100%" align="center" cellspacing="0" cellpadding="10" border="0">
 				<tr>
