@@ -3,6 +3,11 @@
 		<tr><td>
 			<table width="100%" height="100%" align="center" cellspacing="0" cellpadding="10" border="0">
 				<tr>
+					<td align="right">
+					<a href="login.php" target="contentFrame">Login</a>&nbsp;|
+					<a href="home.php" target="contentFrame">Home</a>
+				    	</td>
+					
 					<td align="middle">
 					<h2>
 						Mirpur Shoping Complex<br/>
