@@ -64,7 +64,7 @@
 			if(addMemberToDB($member)==true){
 				echo"done";
                 echo "<script>
-                        document.location='personalInfo.php?memberID=".$member['Member_ID']."';
+                        document.location='login.php';
                      </script>";
                 die();
             }
@@ -80,6 +80,14 @@
 
 <form method="post">
 <html>
+	<head>
+		<script>
+		function msg()
+		{
+			alert("Registration Successful!");
+		}
+		</script>
+	</head>
 	<body>
     <legend><b>REGISTRATION</b></legend>
     <form method="post">
@@ -125,7 +133,7 @@
             </tr>
         </table>
         <hr/>
-        <input type="submit" value="Submit">
+        <input type="submit" onclick="msg()" value="Submit">
         </form>
 	<a href="registration.php"><button>Reset</button></a>
 
