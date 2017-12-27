@@ -22,10 +22,14 @@
             </table>
         </td>
     </tr>
-    <tr width="100%" height='1000'>
+    <tr width="100%" height='100'>
         <td>
-            <h1>We are AutoMart where you can find your necessary car parts at a resonable price</h1>
+		    <h2>About AutoMart<h2>
+            <h3>AutoMart is online car and truck parts and accessories stores.We have a complete selection of high-quality parts for a wide range of vehicle makes and models - offered at the lowest prices.Automart is also a hassle-free online shooping with customer service availability 24 hours a day.<h3>
         </td>
+		
+		
+		
     </tr>
     <tr>
 		<td valign="middle">
