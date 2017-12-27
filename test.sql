@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 27, 2017 at 05:23 PM
+-- Generation Time: Dec 27, 2017 at 05:29 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 5.6.30
 
@@ -28,9 +28,9 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `member` (
   `Member_ID` varchar(8) NOT NULL,
-  `Password` varchar(20) NOT NULL,
   `Name` varchar(40) NOT NULL,
   `Email` varchar(30) NOT NULL,
+  `Password` varchar(30) NOT NULL,
   `Member_Since` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `Last_Logged_in` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
