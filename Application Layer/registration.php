@@ -39,7 +39,7 @@
 		
 		else if(isValidPassword($password)==false){
             $isValid = false;
-            $passErr = "Minimum length 2";
+            $passErr = "Minimum length 6";
         }
 		
 		if(empty($cpassword)){
@@ -81,12 +81,6 @@
 <form method="post">
 <html>
 	<head>
-		<script>
-		function msg()
-		{
-			alert("Registration Successful!");
-		}
-		</script>
 	</head>
 	<body>
     <legend><b>REGISTRATION</b></legend>
@@ -133,7 +127,7 @@
             </tr>
         </table>
         <hr/>
-        <input type="submit" onclick="msg()" value="Submit">
+        <input type="submit" value="Submit">
         </form>
 	<a href="registration.php"><button>Reset</button></a>
 
