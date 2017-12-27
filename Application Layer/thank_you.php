@@ -1,20 +1,21 @@
 <html>
-
-	<table width="100%" height="100%" align="center" cellspacing="0" cellpadding="10" border="0">
-		<tr><td>
-			<table width="100%" height="100%" align="center" cellspacing="0" cellpadding="10" border="0">
-				<tr>
+	<table>
+			<tr>
 					<td align="right">
-					<a href="login.php" target="contentFrame">Login</a>&nbsp;|
+					
+					
 					<a href="home.php" target="contentFrame">Home</a>
 				    </td>
-					<fieldset>
-						<h1>Thank You for buying from us</h1>
-					</fieldset>
-					<br />
-					</tr>
+					<td colspan="3" align="center"></td>
 			</table>
-		</td></tr>
-	</table>
+				<table>
+					<tr>
+						<td width="800">
+							<h2>  </h2>	
+							<h2>Thank You for buying from us</h2></td>
+					</tr>
+				</table>
+			</tr>	
+		
 	
 </html>
