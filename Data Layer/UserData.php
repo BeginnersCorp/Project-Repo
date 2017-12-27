@@ -1,6 +1,6 @@
 <?php require("DBconnection.php") 
 
-	function CreateUser($user)
+	function CreateUserDB($user)
 	{
 		$query = "INSERT INTO user(email, name, password) VALUES ('$user[email]', '$user[name]', '$user[password]')" ;
 		$resultset = ExecuteQuery($query) ;
@@ -8,28 +8,28 @@
 		
 	}
 
-	function UpdateUser($user)
+	function UpdateUserDB($user)
 	{
 		$query = "UPDATE user SET email='$user[email]', name='$user[name]' WHERE id='$user[id]'" ;
 		$resultset = ExecuteQuery($query) ;
 		return $resultset ;
 	}
 	
-	function ChangePassword($user)
+	function ChangePasswordDB($user)
 	{
-		$query = "UPDATE user SET password='$user[password]' WHERE id='$user[id]'" ;
+		$query = "UPDATE user SET password='$user[password]' WHERE email='$user[email]'" ;
 		$resultset = ExecuteQuery($query) ;
 		return $resultset ;
 	}
 	
-	function DeleteUser($user)
+	function DeleteUserDB($user)
 	{
-		$query = "DELETE FROM user WHERE id='$user[id]'" ;
+		$query = "DELETE FROM user WHERE email='$user[email]'" ;
 		$resultset = ExecuteQuery($query) ;
 		return $resultset ;
 	}
 	
-	function GetAllUsers()
+	function GetAllUsersDB()
 	{
 		$users = array() ;
 		$query = "SELECT * FROM user" ;
@@ -41,9 +41,9 @@
 		return $users ;
 	}
 	
-	function SearchByName($name)
+	function SearchByNameDB($user)
 	{
-		$query = "SELECT * FROM user WHERE Name LIKE '%$name%'";
+		$query = "SELECT * FROM user WHERE Name LIKE '%$user[name]%'";
         $resultset = ExecuteQuery($query);
         
         $members = array();
@@ -53,12 +53,11 @@
         return $users;
 	}
 	
-	function SearchByEmail($email)
+	function SearchByEmailDB($user)
 	{
 		$query = "SELECT * FROM user WHERE email='$user[email]'";
         $resultset = ExecuteQuery($query);
 		$user = mysqli_fetch_assoc($resultset);
 		return $user ;
 	}
-
 ?>
