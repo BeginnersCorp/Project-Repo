@@ -32,15 +32,6 @@
             $nameErr = "At least two words required, Only letters and white space allowed";
         }
 		
-		/*if(empty($uname)){
-            $isValid = false;
-            $nameErr = "*";
-        }
-        else if(isValidPersonName($uname)==false){
-            $isValid = false;
-            $nameErr = "Invalid user name";
-        }*/
-		
 		if(empty($password)){
             $isValid = false;
             $passErr = "*Field can not be empty";
@@ -63,13 +54,10 @@
 		
 		
 		if($isValid==true){
-			$id=getLastMemberIDFromDB()['MAX(Member_ID)'];
-			$member['Member_ID']=$id+1;
 			$member['Password']=$password;
 			$member['Name']=$name;
 			$member['Email']=$email;
-			$member['Type']=4;
-			$member['Status']='Active';
+			
 			
 			if(addMemberToDB($member)==true){
 				echo"done";
