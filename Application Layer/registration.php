@@ -1,5 +1,5 @@
-<?php require_once "../Service Layer/validation.php"; ?>
-
+<?php require_once "../Service Layer/validation_service.php"; ?>
+<?php require_once "../Data Layer/member_data_access.php"; ?>
 <?php
 	$name=$email=$password=$cpassword="";
 	$nameErr=$emailErr=$passErr=$cpassErr=$typeErr=$gErr="";
@@ -54,6 +54,8 @@
 		
 		
 		if($isValid==true){
+			$id=getLastMemberIDFromDB()['MAX(Member_ID)'];
+			$member['Member_ID']=$id+1;
 			$member['Password']=$password;
 			$member['Name']=$name;
 			$member['Email']=$email;
@@ -78,6 +80,7 @@
 
 <form method="post">
 <html>
+	<body>
     <legend><b>REGISTRATION</b></legend>
     <form method="post">
         <br/>
@@ -125,6 +128,7 @@
         <input type="submit" value="Submit">
         </form>
 	<a href="registration.php"><button>Reset</button></a>
-</fieldset>
+
+</body>
 </html>
 </form>
