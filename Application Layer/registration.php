@@ -1,4 +1,7 @@
-<?php require_once "../Service Layer/validation_service.php"; ?>
+<?php 	session_start() ;
+		require("../Service Layer/validation_service.php") ; 
+		require("../Data Layer/UserData.php") ;
+		?>
 
 <?php
 	$name=$email=$password=$cpassword="";
@@ -32,15 +35,6 @@
             $nameErr = "At least two words required, Only letters and white space allowed";
         }
 		
-		/*if(empty($uname)){
-            $isValid = false;
-            $nameErr = "*";
-        }
-        else if(isValidPersonName($uname)==false){
-            $isValid = false;
-            $nameErr = "Invalid user name";
-        }*/
-		
 		if(empty($password)){
             $isValid = false;
             $passErr = "*Field can not be empty";
@@ -60,7 +54,6 @@
             $isValid = false;
             $cpassErr = "Password doesn't match";
         }
-		
 		
 		if($isValid==true){
 			$id=getLastMemberIDFromDB()['MAX(Member_ID)'];
