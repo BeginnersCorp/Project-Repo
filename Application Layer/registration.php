@@ -1,5 +1,6 @@
 <?php require_once "../Service Layer/validation_service.php"; ?>
 <?php require_once "../Data Layer/member_data_access.php"; ?>
+<?php require_once "../Service Layer/member_service.php"; ?>
 <?php
 	$name=$email=$password=$cpassword="";
 	$nameErr=$emailErr=$passErr=$cpassErr=$typeErr=$gErr="";
