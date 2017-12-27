@@ -1,6 +1,4 @@
 <html>
-<fieldset>This is message box</fieldset>
-<br />
 <fieldset>
     <legend><b>LOGIN</b></legend>
     <form action="authenticated/index.php" target="_parent">
@@ -16,10 +14,13 @@
                 <td>:</td>
                 <td><input type="password"></td>
             </tr>
+			<tr>
+				<fieldset>
+					<input name="user" value="admin" type="radio"/>Admin
+					<input name="user" value="user" type="radio"/>User
+				</fieldset>
+			</tr>
         </table>
-        <hr />
-        <input name="remember" type="checkbox">Remember Me
-        <br/><br/>
 		<hr/>
         <input type="submit" value="Submit">
         <a href="forgot_password.php">Forgot Password?</a>
