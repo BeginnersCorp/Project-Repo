@@ -3,16 +3,7 @@
 		<title>How To Buy</title>
 	</head>
 	<body>
-		<table border="1" width="100%">
-			ef="logIn.php">Log In</a></td>
-									</tr>
-									
-								</table>
-							</td>
-						</tr>
-					</table>
-				</td>
-			</tr>
+		<table weight="100%">
 			<tr>
 				<td colspan="3" align="center">
 					<table>
