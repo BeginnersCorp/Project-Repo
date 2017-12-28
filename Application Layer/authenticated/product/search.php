@@ -1,5 +1,6 @@
 <?php
-
+	require_once "../../../Data Layer/product_data_access.php";
+	$products=getAllProductsFromDB();
 ?>
 
 <html>
@@ -29,38 +30,23 @@
 		<th align="center">AVAILABLE QUANTITY</th>
         <th colspan="3"></th>
     </tr>
+	<?php 
+	foreach($products as $product)
+	{
+		?>
     <tr>
         <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/red_sports_seat.jpg"  width="80" height="100"> </a></td>
-        <td align="center">Red Sports Seat 1</td>
-		<td align="center">Interior</td>
-        <td align="center">25000</td>
-		<td align="center">60</td>
-		<td align="center">20</td>
-        <td align="center" width="40"><a href="detail.php">Detail</a></td>
-        <td align="center" width="30"><a href="edit.php">Edit</a></td>
-        <td align="center" width="45"><a href="delete.php">Delete</a></td>
+        <td align="center"><?=$product['Name']?></td>
+		<td align="center"><?=$product['Catagory']?></td>
+        <td align="center"><?=$product['Price']?></td>
+		<td align="center"><?=$product['Total_Sells']?></td>
+		<td align="center"><?=$product['Quantity']?></td>
+        <td align="center" width="40"><a href="detail.php?productCode=<?=$product['Product_Code']?>">Detail</a></td>
+        <td align="center" width="30"><a href="edit.php?productCode=<?=$product['Product_Code']?>">Edit</a></td>
+        <td align="center" width="45"><a href="delete.php?productCode=<?=$product['Product_Code']?>">Delete</a></td>
     </tr>
-    <tr>
-        <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/red_sports_seat1.jpg"  width="80" height="100"> </a></td>
-        <td align="center">Red Sports Seat 2</td>
-		<td align="center">Interior</td>
-        <td align="center">28000</td>
-		<td align="center">45</td>
-		<td align="center">17</td>
-        <td align="center" width="40"><a href="detail.php">Detail</a></td>
-        <td align="center" width="30"><a href="edit.php">Edit</a></td>
-        <td align="center" width="45"><a href="delete.php">Delete</a></td>
-    </tr>
-    <tr>
-        <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/stearing_wheel.jpg"  width="80" height="100"> </a></td>
-        <td align="center">Steering Wheel</td>
-		<td align="center">Interior</td>
-        <td align="center">15000</td>
-		<td align="center">10</td>
-		<td align="center">90</td>
-        <td align="center" width="40"><a href="detail.php">Detail</a></td>
-        <td align="center" width="30"><a href="edit.php">Edit</a></td>
-        <td align="center" width="45"><a href="delete.php">Delete</a></td>
-    </tr>
+	
+	<?php } ?>
+    
 </table>
 </html>

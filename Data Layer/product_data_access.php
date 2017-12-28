@@ -10,7 +10,7 @@
     }
 	
 	function editProductToDb($product){
-        $sql = "UPDATE product SET Last_Sold='$product[Last_Sold]',Name='$product[Name]',Quantity='$product[Quantity]',Total_Sells='$product[Total_Sells]',Price='$product[Price]',Catagory='$product[Catagory]',Brand='$product[Brand]',Size='$product[Size]',Description='$product[Description]' WHERE `Product_Code`='$product[Product_Code]'";
+        $sql = "UPDATE product SET Last_Sold='$product[Last_Sold]',Name='$product[Name]',Quantity='$product[Quantity]',Total_Sells='$product[Total_Sells]',Price='$product[Price]',Catagory='$product[Catagory]',Brand='$product[Brand]',Description='$product[Description]' WHERE `Product_Code`='$product[Product_Code]'";
         $result = executeSQL($sql);
         return $result;
     }

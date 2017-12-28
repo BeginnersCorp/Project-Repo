@@ -1,3 +1,19 @@
+<?php
+	require_once "../../../Data Layer/product_data_access.php";
+	$productCode=$_GET['productCode'];
+	$product=getProductByCodeFromDB($productCode);
+	
+	if($_SERVER['REQUEST_METHOD']=="POST")
+	{
+		$product['Catagory']=$_POST['Catagory'];
+		$product['Price']=$_POST['Price'];
+		$product['Description']=$_POST['Description'];
+		$product['Quantity']=$_POST['Quantity'];
+		editProductToDb($product);
+		echo "Updated";
+	}
+?>
+
 <html>
 <!--<script>
 function goBack() {
@@ -9,7 +25,7 @@ function goBack() {
 <fieldset>
     <legend><b>PRODUCT | EDIT</b></legend>
     <br/>
-    <form>
+    <form method="post">
         <table width="100%" cellpadding="0" cellspacing="0" border="0">
             <tr>
                 <td width="100"></td>
@@ -20,14 +36,14 @@ function goBack() {
             <tr>
                 <td>Product Name</td>
                 <td>:</td>
-                <td><input name="name" type="text" value="Red Sports Seat 1"></td>
+                <td><label><?=$product['Name']?></label></td>
                 <td></td>
             </tr>
             <tr><td colspan="4"><hr /></td></tr>
             <tr>
                 <td>Catagory</td>
                 <td>:</td>
-                <td><input name="name" type="text" value="Interior"></td>
+                <td><input name="Catagory" type="text" value="<?=$product['Catagory']?>"></td>
                 <td></td>
             </tr>
             <tr><td colspan="4"><hr /></td></tr>
@@ -35,7 +51,7 @@ function goBack() {
                 <td>Price</td>
                 <td>:</td>
                 <td>
-                    <input name="name" type="float" value="2500.00">
+                    <input name="Price" type="float" value="<?=$product['Price']?>">
                 </td>
                 <td></td>
             </tr>
@@ -44,7 +60,7 @@ function goBack() {
                 <td>Details</td>
                 <td>:</td>
                 <td>
-					<input name="name" type="text" value="Leather seat red color">
+					<input name="Description" type="text" value="<?=$product['Description']?>">
 				</td>
                 <td></td>
             </tr>
@@ -53,7 +69,7 @@ function goBack() {
                 <td>Available Quantity</td>
                 <td>:</td>
                 <td>
-					<input name="name" type="int" value="20">
+					<input name="Quantity" type="int" value="<?=$product['Quantity']?>">
 				</td>
                 <td></td>
             </tr>
@@ -64,7 +80,7 @@ function goBack() {
                 <td>
                     <table>
                         <tr>
-                            <td><img width="48" src="../../../Application Layer/resources/products/red_sports_seat.jpg" /></td>
+                            <td><img width="48" src="../../../Application Layer/resources/products/<?=$product['Name']?>.jpg" /></td>
                             <td><input type="file"></td>
                         </tr>
                     </table>

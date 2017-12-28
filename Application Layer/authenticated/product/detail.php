@@ -1,3 +1,9 @@
+<?php
+	require_once "../../../Data Layer/product_data_access.php";
+	$productCode=$_GET['productCode'];
+	$product=getProductByCodeFromDB($productCode);
+?>
+
 <html>
 <fieldset>
     <legend><b>PRODUCT | DETAILS</b></legend>
@@ -13,42 +19,42 @@
             <tr>
                 <td>Product Name</td>
                 <td>:</td>
-                <td>Red Sports Seat 1</td>
+                <td><?=$product['Name']?></td>
                 <td></td>
             </tr>
             <tr><td colspan="4"><hr /></td></tr>
             <tr>
                 <td>Catagory</td>
                 <td>:</td>
-                <td>Interior</td>
+                <td><?=$product['Catagory']?></td>
                 <td></td>
             </tr>
             <tr><td colspan="4"><hr /></td></tr>
             <tr>
                 <td>Price</td>
                 <td>:</td>
-                <td>2500.00</td>
+                <td><?=$product['Price']?></td>
                 <td></td>
             </tr>
             <tr><td colspan="4"><hr /></td></tr>
             <tr>
                 <td>Details</td>
                 <td>:</td>
-                <td>Leather seat red color</td>
+                <td><?=$product['Description']?></td>
                 <td></td>
             </tr>
 			<tr><td colspan="4"><hr /></td></tr>
 			<tr>
                 <td>Sold Quantity</td>
                 <td>:</td>
-                <td>60</td>
+                <td><?=$product['Total_Sells']?></td>
                 <td></td>
             </tr>
 			<tr><td colspan="4"><hr /></td></tr>
 			<tr>
                 <td>Available Quantity</td>
                 <td>:</td>
-                <td>20</td>
+                <td><?=$product['Quantity']?></td>
                 <td></td>
             </tr>
 			<tr><td colspan="4"><hr /></td></tr>
@@ -58,7 +64,7 @@
                 <td>
                     <table>
                         <tr>
-                            <td><img width="150" height="200" src="../../../Application Layer/resources/products/red_sports_seat.jpg" /></td>
+                            <td><img width="150" height="200" src="../../../Application Layer/resources/products/<?=$product['Name']?>.jpg" /></td>
                             
                         </tr>
                     </table>

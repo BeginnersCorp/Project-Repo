@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2017 at 03:57 PM
+-- Generation Time: Dec 28, 2017 at 04:43 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -95,9 +95,37 @@ CREATE TABLE `product` (
   `Last_Sold` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   `Catagory` varchar(30) NOT NULL,
   `Brand` varchar(30) NOT NULL,
-  `Size` varchar(10) NOT NULL,
   `Description` mediumtext NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `product`
+--
+
+INSERT INTO `product` (`Product_Code`, `Name`, `Quantity`, `Total_Sells`, `Price`, `Last_Sold`, `Catagory`, `Brand`, `Description`) VALUES
+('1', 'red_sports_seat', 10, 2, 25001, '0000-00-00 00:00:00', 'Interior', 'Cybex', 'Leather seat red color');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `invoice`
+--
+ALTER TABLE `invoice`
+  ADD PRIMARY KEY (`Invoice_Code`);
+
+--
+-- Indexes for table `order_product`
+--
+ALTER TABLE `order_product`
+  ADD PRIMARY KEY (`Order_Code`);
+
+--
+-- Indexes for table `product`
+--
+ALTER TABLE `product`
+  ADD PRIMARY KEY (`Product_Code`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
