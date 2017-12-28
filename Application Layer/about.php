@@ -10,7 +10,7 @@
 	<tr>
 		<td>
 		    <h2>Large Inventory of Parts<h2>
-		    <h3>We at AutoMart have an inventory of more than ten thousand parts and accessories for different vehicles.These are available in stock in our warehouses.All parts are ready to ship straight from the warehouse right to your garage,so you dont have to wait long after you place your order.<h3>
+		    <h3>We at AutoMart have an inventory of more than 10 thousand parts and accessories for different vehicles.These are available in stock in our warehouses.All parts are ready to ship straight from the warehouse right to your garage,so you dont have to wait long after you place your order.<h3>
 		</td>
 		
     </tr>
