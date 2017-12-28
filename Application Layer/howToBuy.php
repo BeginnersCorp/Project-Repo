@@ -52,7 +52,7 @@
 									</ul>
 
 								</p>
-								<img src="resources/b.jpg" width="800"></img>
+								
 								
 								
 							</td>
