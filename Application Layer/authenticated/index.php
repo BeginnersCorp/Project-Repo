@@ -1,4 +1,45 @@
 <html>
+<?php
+if(isset($_POST['button1'])){
+  $conn = mysqli_connect("localhost","root","","automart");
+  $emailad = $passw = "";
+  $emailErr = $passErr = "";
+  $username="";
+
+  //checking if the required inputs are filled
+
+  if (isset($_POST['email'])) {
+    $emailad = $_POST['email'];
+  }
+  if (isset($_POST['pass'])) {
+    $passw = $_POST['pass'];
+  }
+
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
+$sql = "SELECT Email FROM member where Email='$emailad' AND Password='$passw'";
+//connecting to database
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+      $username = $row["Email"];
+      session_start();
+      $_SESSION['uname'] = $username;
+  }
+}
+$conn->close();
+}
+else{
+  session_start();
+  if(isset($_SESSION['uname'])){
+    $username = $_SESSION['uname'];
+  }
+}
+?>
+
 <table width="100%" cellspacing="0" cellpadding="10" border="1">
     <tr>
         <td colspan="2" valign="middle" height="70">
@@ -10,7 +51,7 @@
                         </a>
                     </td>
                     <td align="right">
-                        Logged in as <a href="account_admin/profile.php" target="contentFrame">Bob</a>&nbsp;|
+                        Logged in as <a href="account_admin/profile.php" target="contentFrame"><?php echo $username; ?></a>&nbsp;|
                         <a href="../../index.php">Logout</a>
                     </td>
                 </tr>
@@ -35,7 +76,7 @@
 				<!--<li><a href="report/user/delete_product.php" target="contentFrame">Delete Product</a></li>-->
 			</ul>
             <hr /><b>&nbsp;User</b><hr />
-            <ul>                
+            <ul>
                 <li><a href="user/search.php" target="contentFrame">Search</a></li>
                 <li><a href="user/create.php" target="contentFrame">Create New</a></li>
             </ul>
@@ -57,11 +98,11 @@
 			<a href="../about.php" target="contentFrame">About Us</a><br/>
 			<a href="../contact.php" target="contentFrame">Contact Us</a>
 		</td>
-		
+
 		<td align="center">
 			Copyright &copy; 2017<br/>All rights reserved by AutoMart.com
 		</td>
-		
+
 		<td align="middle">
 			<h2>Our Location</h2><br/>
 			Mirpur Shoping Complex<br/>Mirpur-2,Dhaka
