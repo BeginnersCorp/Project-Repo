@@ -1,7 +1,11 @@
 <?php
 	require_once "../../../Data Layer/product_data_access.php";
+	$products=getAllProductsFromDB();
+	$s="";
+	
 	if(isset($_GET['s']))
 	{
+		$s=$_GET['s'];
 		if($_GET['s']=="1")
 		$products=getAllProductsByPartFromDB("Interior");
 		
@@ -11,9 +15,12 @@
 		if($_GET['s']=="3")
 		$products=getAllProductsByPartFromDB("Engine");
 		
+		if($_GET['s']=="0")
+		$products=getAllProductsFromDB();
+		
+		
 	}
-	else
-	$products=getAllProductsFromDB();
+	
 ?>
 
 <html>
@@ -23,10 +30,10 @@
     </legend>
     Filter By
     <select onchange="location = this.value;">
-        <option>Any</option>
-        <option value="search.php?s=1">Interior</option>
-        <option value="search.php?s=2">Exterior</option>
-        <option value="search.php?s=3">Engine</option>
+        <option value="search.php?s=0" <?php if($s=="0") echo "selected";?>>Any</option>
+        <option value="search.php?s=1" <?php if($s=="1") echo "selected";?>>Interior</option>
+        <option value="search.php?s=2" <?php if($s=="2") echo "selected";?>>Exterior</option>
+        <option value="search.php?s=3" <?php if($s=="3") echo "selected";?>>Engine</option>
     </select>
     <input />
     <input type="submit" value="Search" />
