@@ -19,7 +19,7 @@
 	}
 	else
 	{
-		 $memberID="";
+		$memberID="";
 	}
 ?>
 
@@ -96,7 +96,7 @@
 ?>
 <fieldset method="post">
     <legend><b>LOGIN</b></legend>
-    <form target="_parent" method="post">
+    <form target="_parent" action="authenticated/index.php" method="post">
         <br/>
         <table>
             <tr>
@@ -111,7 +111,7 @@
             </tr>
         </table>
 		<hr/>
-        <input type="submit" value="Submit">
+        <button type="submit" name="button1">Login</button>
         <a href="forgot_password.php">Forgot Password?</a>
     </form>
 </fieldset>
