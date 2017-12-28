@@ -73,8 +73,8 @@
             </tr>
     </table>	
     <hr/>    
-    <a href="edit.php">Edit</a>
-    <a href="delete.php">Delete</a>
+    <a href="edit.php?productCode=<?=$product['Product_Code']?>">Edit</a>
+    <a href="delete.php?productCode=<?=$product['Product_Code']?>">Delete</a>
     <input type="button" value="Back" onclick="goBack()"></button>
 
 		<script>

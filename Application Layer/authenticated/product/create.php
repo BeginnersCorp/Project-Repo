@@ -1,10 +1,43 @@
+<?php
+	require_once "../../../Data Layer/product_data_access.php";
+	if($_SERVER['REQUEST_METHOD']=="POST")
+	{
+		$products=getAllProductsFromDB();
+		$id=0;
+			foreach($products as $p)
+			{
+				if($id<((int)$p['Product_Code']))
+				{
+					$id=(int)$p['Product_Code'];
+				}
+			}
+		$product['Product_Code']=$id+1;
+		$product['Name']=$_POST['product_name'];
+		$product['Catagory']=$_POST['catagory'];
+		$product['Price']=$_POST['price'];
+		$product['Description']=$_POST['details'];
+		$product['Quantity']=$_POST['available'];
+		$product['Brand']=$_POST['brand'];
+		
+		if(addProductToDB($product)==false)
+			echo "Internal Error";
+		
+		else
+			echo "Successful";
+		
+		
+		
+		
+	}
+?>
+
 <html>
 <fieldset>This is message box</fieldset>
 <br/>
 <fieldset>
     <legend><b>PRODUCT | ADD</b></legend>
     <br/>
-    <form>   
+    <form method="post">   
         <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
                 <td width="100"></td>
@@ -23,6 +56,13 @@
                 <td>Catagory</td>
                 <td>:</td>
                 <td><input name="catagory" type="text" value=""></td>
+                <td></td>
+            </tr>
+			<tr><td colspan="4"><hr /></td></tr>
+			<tr>
+                <td>Brand</td>
+                <td>:</td>
+                <td><input name="brand" type="text" value=""></td>
                 <td></td>
             </tr>
             <tr><td colspan="4"><hr /></td></tr>

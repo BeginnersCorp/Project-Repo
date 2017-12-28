@@ -85,7 +85,7 @@
 	{
 		?>
     <tr>
-        <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/red_sports_seat.jpg"  width="80" height="100"> </a></td>
+        <td align="center" width="80"><a> <img src="../../../Application Layer/resources/products/<?=$product['Name']?>.jpg"  width="80" height="100"> </a></td>
         <td align="center"><?=$product['Name']?></td>
 		<td align="center"><?=$product['Catagory']?></td>
         <td align="center"><?=$product['Price']?></td>
