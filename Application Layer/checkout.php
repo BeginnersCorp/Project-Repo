@@ -3,11 +3,11 @@
 
 <br/>
 	<tr>
-				<td align="right">
-					<a href="home.php" target="contentFrame">Home</a>&nbsp;|
-					<a href="howToBuy.php" target="contentFrame">How to Buy</a>
-				</td>
-			</tr>
+		<td align="right">
+			<a href="home.php" target="contentFrame">Home</a>&nbsp;|
+			<a href="howToBuy.php" target="contentFrame">How to Buy</a>
+		</td>
+	</tr>
 <fieldset>
     <legend></legend>
     <form action="thank_you.php">
