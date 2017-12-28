@@ -1,5 +1,4 @@
-<html>
-<?php
+<?php	session_start();
 if(isset($_POST['button1'])){
   $conn = mysqli_connect("localhost","root","","automart");
   $emailad = $passw = "";
@@ -26,7 +25,7 @@ if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
       $username = $row["Email"];
-      session_start();
+      
       $_SESSION['uname'] = $username;
   }
 }
@@ -39,7 +38,7 @@ else{
   }
 }
 ?>
-
+<html>
 <table width="100%" cellspacing="0" cellpadding="10" border="1">
     <tr>
         <td colspan="2" valign="middle" height="70">

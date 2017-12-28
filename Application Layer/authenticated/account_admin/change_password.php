@@ -1,12 +1,10 @@
-<html>
-
-<?php
-	
+<?php session_start();
+	require_once "../../../Data Layer/member_data_access.php";
 	$server="localhost";
 	$database="automart";
 	$conn = mysqli_connect($server, "root", "", $database);
 	
-	session_start();
+	
 	if(isset($_SESSION['uname'])){
 		$username = $_SESSION['uname'];
 	}
@@ -16,15 +14,36 @@
 			$newpass = $_POST['npass'];
 			$repass = $_POST['rpass'];
 			
-			$sql = "UPDATE member SET Password='$repass' WHERE Email='$username' ";
+			$member=getMemberByEmailFromDB($username);
 			
-			if ($conn->query($sql) === TRUE){
-				echo 'UPDATED';
+			if($member['Password']==$curpass)
+			{
+				
+				if($newpass==$repass)
+				{
+					
+				
+			
+				$sql = "UPDATE member SET Password='$repass' WHERE Email='$username' ";
+			
+				if ($conn->query($sql) === TRUE){
+					echo 'UPDATED';
+				}
+				}
+				else
+					echo "Password Doesn't match";
 			}
+			else
+				echo "Wrong pass";
+			
+			
+			
+			
 	}
 $conn->close();
 
 ?>
+<html>
 <fieldset>This is message box</fieldset>
 <br />
 <fieldset>
