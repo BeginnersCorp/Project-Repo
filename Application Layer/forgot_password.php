@@ -4,7 +4,7 @@
 <fieldset>
     <legend><b>FORGOT PASSWORD?</b></legend>
     <br />
-    <form method="post">
+        <form method="post">
         Enter Email:
         <input name="email" />
         <hr />
