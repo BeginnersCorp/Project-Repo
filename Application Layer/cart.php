@@ -13,7 +13,7 @@
     <tr>
         <td align="center" width="80"><a> <img src="../Application Layer/resources/products/red_sports_seat.jpg"  width="80" height="100"> </a></td>
         <td align="center">Red Sports Seat 1</td>
-        <td align="center">25009</td>
+        <td align="center">25000</td>
 		<td align="center">1</td>
 		<td align="center"><a href="">REMOVE</a></td>
     </tr>
