@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 28, 2017 at 02:39 PM
+-- Generation Time: Dec 28, 2017 at 03:57 PM
 -- Server version: 10.1.26-MariaDB
 -- PHP Version: 7.1.9
 
@@ -87,7 +87,7 @@ CREATE TABLE `order_product` (
 --
 
 CREATE TABLE `product` (
-  `Product _Code` varchar(8) NOT NULL,
+  `Product_Code` varchar(8) NOT NULL,
   `Name` varchar(1000) NOT NULL,
   `Quantity` int(8) NOT NULL,
   `Total_Sells` int(8) NOT NULL DEFAULT '0',
