@@ -1,3 +1,7 @@
+<?php
+	require_once "../Data Layer/product_data_access.php";
+?>
+
 <html>
 	<head>
 		<script>
@@ -93,23 +97,47 @@
 			</tr>
 		</table>
 		<hr/>
-		<table width= "100%" cellspacing="0" cellpadding="10" >
+		<table width= "100%" cellspacing="0" cellpadding="10" border="1" >
 			
 			<!--<td>
 				<a href="product_details/k.php">
 					<img src="../resources/products/k.jpg" alt="../resources/products/k.jpg" height="200" width="180" >
 				</a>
 			</td>-->
-			<tr>
+			<?php
+			$c=6;
+			$products=getAllProductsFromDB();
+			foreach($products as $product)
+			{
+				if($c==6)
+				{
+					echo "<tr>";
+					$c=0;
+				 }
+				
+				$c++;
+				?>
+				
+				
 				<td align="center">
-					<a href="product_details/red_sports_seat.php">
-					<img src="resources/products/red_sports_seat.jpg" alt="resources/products/red_sports_seat.jpg" height="200" width="180" >
+					<a href="details.php?code=<?=$product['Product_Code']?>">
+					<img src="resources/products/<?=$product['Name']?>.jpg" alt="resources/products/<?=$product['Name']?>.jpg" height="200" width="180" >
 					</a><br/>
-					<h3 align="center">Red Sports Seat<h3/>
-					<h3 align="center">2500 TK<h3/>
+					<h3 align="center"><?=$product['Name']?><h3/>
+					<h3 align="center"><?=$product['Price']?> TK<h3/>
 				</td>
+				
+				<?php
+				
+				if($c==6)
+				{
+					$c=0;
+				echo "</tr>";
+				 }
+				
+			}?>
 			
-				<td align="center">
+			<!--	<td align="center">
 					<a href="product_details/red_sports_seat1.php">
 					<img src="resources/products/red_sports_seat1.jpg" alt="resources/products/red_sports_seat1.jpg" height="200" width="180" >
 					</a><br/>
@@ -403,7 +431,7 @@
 						<h3 align="center">2200 TK</h3>
 				</td>
 				
-			</tr>
+			</tr>-->
 
 			
 		</table>

@@ -1,3 +1,43 @@
+<?php	session_start();
+if(isset($_POST['button1'])){
+  $conn = mysqli_connect("localhost","root","","automart");
+  $emailad = $passw = "";
+  $emailErr = $passErr = "";
+  $username="";
+
+  //checking if the required inputs are filled
+
+  if (isset($_POST['email'])) {
+    $emailad = $_POST['email'];
+  }
+  if (isset($_POST['pass'])) {
+    $passw = $_POST['pass'];
+  }
+
+  if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+  }
+
+$sql = "SELECT Email FROM member where Email='$emailad' AND Password='$passw'";
+//connecting to database
+$result = $conn->query($sql);
+if ($result->num_rows > 0) {
+  // output data of each row
+  while($row = $result->fetch_assoc()) {
+      $username = $row["Email"];
+      
+      $_SESSION['uname'] = $username;
+  }
+}
+$conn->close();
+}
+else{
+ // session_start();
+  if(isset($_SESSION['uname'])){
+    $username = $_SESSION['uname'];
+  }
+}
+?>
 <html>
 <table width="100%" cellspacing="0" cellpadding="10" border="1">
     <tr>
@@ -10,7 +50,7 @@
                         </a>
                     </td>
                     <td align="right">
-                        Logged in as <a href="account_user/profile.php" target="contentFrame">Bob</a>&nbsp;|
+                        Logged in as <a href="account_user/profile.php" target="contentFrame"><?=$username; ?></a>&nbsp;|
                         <a href="../../index.php">Logout</a>
                     </td>
                 </tr>

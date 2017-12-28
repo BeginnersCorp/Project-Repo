@@ -32,7 +32,7 @@ if ($result->num_rows > 0) {
 $conn->close();
 }
 else{
-  session_start();
+ // session_start();
   if(isset($_SESSION['uname'])){
     $username = $_SESSION['uname'];
   }

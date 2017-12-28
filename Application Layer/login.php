@@ -69,13 +69,13 @@
 						// session_start();
 						// $_SESSION['easylife_email'] = $email;
 						
-						if($member['Type']==1)
+						if($member['Type']=="1")
 						{
 							echo "<script>				
 									document.location='authenticated/index.php';
 								 </script>";
 						}
-						if($member['Type']==0)
+						if($member['Type']=="0")
 						{
 							$_SESSION['member_id']=$member['Member_ID'];
 								$_SESSION['member_name']=$member['Name'];
@@ -94,9 +94,9 @@
 		if($v==false){echo "<div><font color=red>"."Login was unsuccessful.<br/>Customer account not found!!!"."</font></div>";}
 	 }
 ?>
-<fieldset method="post">
+<fieldset >
     <legend><b>LOGIN</b></legend>
-    <form target="_parent" action="authenticated/index.php" method="post">
+    <form target="_parent" method="post">
         <br/>
         <table>
             <tr>
@@ -111,7 +111,7 @@
             </tr>
         </table>
 		<hr/>
-        <button type="submit" name="button1">Login</button>
+        <input type="submit" name="button1" value="Login" />
         <a href="forgot_password.php">Forgot Password?</a>
     </form>
 </fieldset>
