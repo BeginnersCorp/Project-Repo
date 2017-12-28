@@ -19,7 +19,7 @@
 	}
 	else
 	{
-		$memberID="";
+		 $memberID="";
 	}
 ?>
 
