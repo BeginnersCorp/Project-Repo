@@ -1,9 +1,28 @@
+<?php session_start();
+	require_once "../../../Data Layer/member_data_access.php";
+	$server="localhost";
+	$database="automart";
+	$conn = mysqli_connect($server, "root", "", $database);
+	
+	
+	if(isset($_SESSION['uname'])){
+		$username = $_SESSION['uname'];
+	}
+	$member=getMemberByEmailFromDB($username);
+	if($_SERVER['REQUEST_METHOD']=="POST")
+	{
+		$member['Name']=$_POST['name'];
+		$member['Email']=$_POST['email'];
+		editMemberToDB($member);
+		echo "Updated";
+	}
+?>
 <html>
 <fieldset>This is message box</fieldset>
 <br />
 <fieldset>
     <legend><b>EDIT PROFILE</b></legend>
-    <form>
+    <form method="post">
         <br/>
         <table width="100%" cellpadding="0" cellspacing="0">
             <tr>
@@ -15,7 +34,7 @@
             <tr>
                 <td>Name</td>
                 <td>:</td>
-                <td><input name="name" type="text" value="Bob"></td>
+                <td><input name="name" type="text" value="<?=$member['Name']?>"></td>
                 <td></td>
             </tr>		
             <tr><td colspan="4"><hr/></td></tr>
@@ -23,7 +42,7 @@
                 <td>Email</td>
                 <td>:</td>
                 <td>
-                    <input name="email" type="text" value="bob@aiub.edu">
+                    <input name="email" type="text" value="<?=$member['Email']?>">
                     <abbr title="hint: sample@example.com"><b>i</b></abbr>
                 </td>
                 <td></td>
