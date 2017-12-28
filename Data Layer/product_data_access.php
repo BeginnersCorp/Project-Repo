@@ -35,6 +35,18 @@
         return $products;
     }
 	
+	function getAllProductsByPartFromDB($s){
+        $sql = "SELECT * FROM product WHERE Catagory='$s'";        
+        $result = executeSQL($sql);
+        
+        $products = array();
+        for($i=0; $row=mysqli_fetch_assoc($result); ++$i){
+            $products[$i] = $row;
+        }
+        
+        return $products;
+    }
+	
 	function getAllProductsQuantityDescFromDB(){
         $sql = "SELECT * FROM product order by Quantity DESC";        
         $result = executeSQL($sql);
