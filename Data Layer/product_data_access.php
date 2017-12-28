@@ -98,6 +98,20 @@
         
         return $products;
     }
+	
+	function getProductsByNameAndPartFromDB($Name,$s){
+        $sql = "SELECT * FROM product WHERE Catagory='$s' AND Name LIKE '%$Name%'";
+        $result = executeSQL($sql);
+        
+        $products = array();
+        for($i=0; $row = mysqli_fetch_assoc($result); ++$i){
+            $products[$i] = $row;
+        }
+        
+        return $products;
+    }
+	
+	
 	function getProductsByFullNameFromDB($Name){
         $sql = "SELECT * FROM product WHERE Name='$Name'";
         $result = executeSQL($sql);
