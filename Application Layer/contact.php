@@ -17,7 +17,7 @@
 					</h2>
 					</td>
 				</tr>
-			</table>
+			 </table>
 		</td></tr>
 		<tr>
 			<td>
