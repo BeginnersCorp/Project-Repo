@@ -86,7 +86,7 @@
 			<tr>
 				<td/>
 				<td/>
-				      <td align="right">
+				        <td align="right">
 					<input type="text"> 
 					<input type="button" value="Search">
 				</td>
