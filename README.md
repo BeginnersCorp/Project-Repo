@@ -1,2 +1,2 @@
 # Project-Repo
-General repository for project files
+A repository that contains the university project on an e-commerce web page
